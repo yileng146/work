@@ -1,0 +1,67 @@
+body{
+margin: 0;
+}
+#all{
+	width: 80%;
+	height: 600px;
+	/*border: 1px solid black ;*/
+	margin: auto;
+}
+#all #top{
+    height: 180px;
+    background-image: url(../../img/headphone/topbg.JPG);
+}
+#nav{
+	height: 50px;
+	background: deepskyblue;
+}
+#main{
+	height: 400px;
+	background-color: aquamarine
+}
+#main table{
+	border: 1px solid black;
+    width: 80%;
+    border-collapse: collapse;	
+}
+#main table caption{
+	background: beige;
+	line-height: 40px;
+	font-size: 25px;
+	font-family: "微软雅黑";
+}
+#main table td{
+	border:1px solid black;
+	line-height: 30px;
+	text-align: center;
+}
+#button{
+	text-align:center;
+}
+#foot{
+	height: 50px;
+	background: aliceblue;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	line-height: 50px;
+	text-align:center;
+}
+
+#button1{
+	padding: 30px;
+	height: 80px;
+	text-align: center;
+}
+#button1 button{
+	height: 30px;
+	width: 80px;
+}
+#button2{
+	height: 50px;
+	text-align: center;
+}
+#button2 button{
+	height: 30px;
+	width: 80px;
+}
+
