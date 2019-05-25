@@ -11,28 +11,31 @@
 			"booValue":true,
 			"strMsg":"welcome",
 			"jsonArr":[
-						{"name":"小明","age":14,"sex":"男"},
-						{"name":"小红","age":15,"sex":"女"},
-						{"name":"小绿","age":13,"sex":"男"},
-						{"name":"小黄","age":17,"sex":"女"}
+						{"id":1,"name":"小明","age":14,"sex":"男"},
+						{"id":2,"name":"小红","age":15,"sex":"女"},
+						{"id":3,"name":"小绿","age":13,"sex":"男"},
+						{"id":4,"name":"小黄","age":17,"sex":"女"}
 						]
 		};
-		var arr=jsonObj.arr;
-		for (var i=0;i<arr.length;i++) {
-			console.log(i+"----"+arr[i]);
-		}
-		var booValue=jsonObj.booValue;
-		console.log("booValue="+booValue);
-		var strMsg=jsonObj.strMsg;
-		console.log("strMsg="+strMsg);
 		var jsonArr=jsonObj.jsonArr;
-		for (var i=0;i<jsonArr.length;i++) {
-							var jsonObj=jsonArr[i];
-							var name=jsonObj.name;
-							var age=jsonObj.age;
-							var sex=jsonObj.sex;
-							console.log("name="+name+"-----age="+age+"-----sex="+sex)
-						}
+		var datetable=document.getElementById("datetable")
+		var tr=document.createElement("tr");
+		datetable.appendChild(tr);
+		var th1=document.createElement("th");
+		var th2=document.createElement("th");
+		var th3=document.createElement("th");
+		var th4=document.createElement("th");
+		th1.innerHTML="序号";
+		th2.innerHTML="姓名";
+		th3.innerHTML="年龄";
+		th4.innerHTML="性别";
+		tr.appendChild(th1);
+		tr.appendChild(th2);
+		tr.appendChild(th3);
+		tr.appendChild(th4);
+//		for (var i=0;i<jsonArr.length) {
+//			
+//		}
 		</script>
 	</body>
 </html>
