@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var	jsonObj={"name":"小明","age":18,"sex":"男"};
+			console.log("jsonObj="+jsonObj);
+			
+			var	jsonStr=JSON.stringify(jsonObj);
+			console.log("jsonStr="+jsonStr);
+			
+			var	jsonStr1='{"name":"小明","age":18,"sex":"男"}';
+			var jsonObj=JSON.parse(jsonStr1);
+			console.log("jsonStr1="+jsonStr1);
+			console.log("jsonStr1="+jsonObj);
+		</script>
+	</body>
+</html>

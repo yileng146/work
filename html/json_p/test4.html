@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+						var	jsonArr=[
+						{"name":"小明","age":14,"sex":"男"},
+						{"name":"小红","age":15,"sex":"女"},
+						{"name":"小绿","age":13,"sex":"男"},
+						{"name":"小黄","age":17,"sex":"女"}
+						];
+						for (var i=0;i<jsonArr.length;i++) {
+							var jsonObj=jsonArr[i];
+							var name=jsonObj.name;
+							var age=jsonObj.age;
+							var sex=jsonObj.sex;
+							console.log("name="+name+"-----age="+age+"-----sex="+sex)
+						}
+		</script>
+	</body>
+</html>
