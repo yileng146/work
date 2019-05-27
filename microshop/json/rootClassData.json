@@ -1,0 +1,20 @@
+[
+{"id":"r001","fClassName":"女装","fImg":"img/rootclass1.png","fDescription":"上衣 裙子 裤子"},
+{"id":"r002","fClassName":"女鞋","fImg":"img/rootclass2.png","fDescription":"鞋型 流行元素 品牌"},
+{"id":"r003","fClassName":"箱包","fImg":"img/rootclass3.png","fDescription":"热搜款式 流行元素"},
+{"id":"r004","fClassName":"配饰","fImg":"img/rootclass4.png","fDescription":"热门配饰 时尚首饰"},
+{"id":"r005","fClassName":"美妆","fImg":"img/rootclass5.png","fDescription":"基础保养 当季护肤"},
+{"id":"r006","fClassName":"家居","fImg":"img/rootclass6.png","fDescription":"热卖推荐 床品布艺"},
+{"id":"r007","fClassName":"母婴","fImg":"img/rootclass7.png","fDescription":"妈妈热衷品牌"},
+{"id":"r008","fClassName":"男装","fImg":"img/rootclass8.png","fDescription":"热门上装 风格下装"},
+{"id":"r009","fClassName":"男鞋","fImg":"img/rootclass9.png","fDescription":"热门风格 鞋型"},
+{"id":"r010","fClassName":"数码","fImg":"img/rootclass10.png","fDescription":"手机 相机摄像机"},
+{"id":"r011","fClassName":"配件","fImg":"img/rootclass11.png","fDescription":"热门推荐 手机配件"},
+{"id":"r012","fClassName":"美食","fImg":"img/rootclass12.png","fDescription":"糖果布丁 坚果"},
+{"id":"r013","fClassName":"超市","fImg":"img/rootclass13.png","fDescription":"家庭清洁 居家日用"},
+{"id":"r014","fClassName":"家电","fImg":"img/rootclass14.png","fDescription":"热门推荐 大家电"}
+]
+
+
+
+

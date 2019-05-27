@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cYZja2y" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cYZja2y" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cYZja2y" class="cYZja2y"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcZFnA3q-iosstatusbar cYZja2y" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cYZja2y"> 
+    <div class="x-panel-top cYZja2y" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYZja2y"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cYZja2y" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;搜索&quot;}" __cid="cYZja2y"> 
+        <div class="x-titlebar-left cYZja2y" __cid="cYZja2y"></div>  
+        <div class="x-titlebar-title cYZja2y" __cid="cYZja2y">搜索</div>  
+        <div class="x-titlebar-right  cYZja2y" __cid="cYZja2y">
+          <div class="empty cYZja2y" __cid="cYZja2y"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cYZja2y" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYZja2y">
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cYZja2y" xid="list1" bind-click="list1Click" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;classData&quot;}" __cid="cYZja2y"> 
+        <ul class="x-list-template hide cYZja2y" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cYZja2y"> 
+          <li xid="li1" class="col-xs-6 cYZja2y" __cid="cYZja2y">
+            <div class="media cYZja2y" xid="media1" __cid="cYZja2y"> 
+              <div class="media-left cYZja2y" xid="mediaLeft1" __cid="cYZja2y"> 
+                <a href="#" xid="a1" __cid="cYZja2y" class="cYZja2y"> 
+                  <img class="media-object cYZja2y" src="" alt="" xid="image1" bind-attr-src=" val(&quot;fImg&quot;)" style="width:40px;" __cid="cYZja2y"/>
+                </a> 
+              </div>  
+              <div class="media-body cYZja2y" xid="mediaBody1" __cid="cYZja2y"> 
+                <h4 class="media-heading cYZja2y" xid="h41" bind-text="val(&quot;fClassName&quot;)" __cid="cYZja2y">Media heading</h4>  
+                <span xid="span1" bind-text="val(&quot;fDescription&quot;)" __cid="cYZja2y" class="cYZja2y"/>
+              </div> 
+            </div>
+          </li>
+        </ul> 
+      </div>
+    </div>  
+    <style __cid="cYZja2y" class="cYZja2y">.x-panel.pcZFnA3q-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcZFnA3q-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcZFnA3q-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcZFnA3q-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcZFnA3q-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcZFnA3q-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcZFnA3q-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcZFnA3q-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcZFnA3q-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
