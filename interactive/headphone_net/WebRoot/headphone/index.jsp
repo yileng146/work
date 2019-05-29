@@ -9,26 +9,30 @@
 		<meta charset="UTF-8">
 		<title>查找耳机</title>
 		<link rel="stylesheet" type="text/css" href="../css/headphone/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/headphone/indextable.css"/>
 	</head>
 	<body>
 		<div id="all">
 			<div id="top">
-				
 			</div>
 			<div id="nav">
-				
 			</div>
 			<div id="main">
-			<div id="button1">
 			<a href="http://localhost:8887/headphone_net/headphone/addheadphone.jsp">
-		    <button>添加手机</button>
+		    添加耳机
 			</a>
-			</div>
-			<div id="button2">
 			<a href="http://localhost:8887/headphone_net/headphone/searchheadphone.jsp">
-		    <button>手机查询</button>
+		   耳机查询
 			</a>
-			</div>
+			<a href="http://localhost:8887/headphone_net/headphone/json.jsp">
+		   json模块
+		   </a>
+			<a href=#>
+		  待开发
+			</a>
+			<a href=#>
+		   待开发
+			</a>
 			</div>
 			<div id="foot">
 				Copyright@YL
