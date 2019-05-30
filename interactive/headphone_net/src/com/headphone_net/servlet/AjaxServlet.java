@@ -1,6 +1,7 @@
 package com.headphone_net.servlet;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -31,6 +32,20 @@ public class AjaxServlet extends HttpServlet {
 		System.out.println("user_name="+user_name);
 		System.out.println("user_pwd="+user_pwd);
 
-
+		try {
+			req.getRequestDispatcher("ajax/json_index.jsp").forward(req,resp);
+		} catch (ServletException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+//		try {
+//			PrintWriter out=resp.getWriter();
+//			out.write("success");
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
 	}
 }
