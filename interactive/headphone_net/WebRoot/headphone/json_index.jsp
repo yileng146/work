@@ -39,7 +39,7 @@
 							</li>
 							<li>
 								<label>密码：</label>
-								<span><input type="text" name="user_name" id="user_name" /></span>
+								<span><input type="text" name="user_pwd" id="user_pwd" /></span>
 							</li>
 							<li>
 								<input  class="btn"  type="button" onclick="ordinary_submit()"  value="普通提交"/>

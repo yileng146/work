@@ -1,11 +1,14 @@
 package com.headphone_net.servlet;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import org.omg.PortableInterceptor.SUCCESSFUL;
 
 public class AjaxServlet extends HttpServlet {
 
@@ -19,18 +22,31 @@ public class AjaxServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		String para=req.getParameter("para");
-		if (para.equals("ordinary_form")) {
-			ordinary_form(req,resp);
+		if (para.equals("ordinamry_submit")) {
+			ordinamry_submit(req,resp);
 		}
 	}
 
-	private void ordinary_form(HttpServletRequest req, HttpServletResponse resp) {
+	private void ordinamry_submit(HttpServletRequest req, HttpServletResponse resp) {
 		// TODO Auto-generated method stub
 		String user_name=req.getParameter("user_name");
 		String user_pwd=req.getParameter("user_pwd");
-		System.out.println("user_name");
-		System.out.println("user_pwd");
-
+		System.out.println("user_name="+user_name);
+		System.out.println("user_pwd="+user_pwd);
+		try {
+			req.getRequestDispatcher("/headphone/ajax_index.jsp").forward(req,resp);
+		} catch (ServletException | IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		try {
+			PrintWriter out=resp.getWriter();
+			out.write("success");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 
 	}
 }
