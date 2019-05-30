@@ -22,6 +22,26 @@ public class AjaxServlet extends HttpServlet {
 		String para=req.getParameter("para");
 		if (para.equals("ordinamry_submit")) {
 			ordinamry_submit(req,resp);
+		}else if(para.equals("ajax_submit"))
+		{
+			ajax_submit(req,resp);
+		}
+	}
+
+	private void ajax_submit(HttpServletRequest req, HttpServletResponse resp) {
+		// TODO Auto-generated method stub
+		String username=req.getParameter("username");
+		String userpwd=req.getParameter("userpwd");
+		System.out.println("username="+username);
+		System.out.println("userpwd="+userpwd);
+		try {
+			req.getRequestDispatcher("/ajax/ajax_index.jsp").forward(req, resp);
+		} catch (ServletException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 

@@ -26,3 +26,28 @@
 		ordinary_form.action="../servlet/ajaxservlet?para=ordinamry_submit";
 		ordinary_form.submit();
 	}
+	
+	function ajax_submit(){
+		var username=document.getElementById("username").value;
+		var userpwd=document.getElementById("userpwd").value;
+		var xmlhttp;
+		if (window.XMLHttpRequest)
+		  {
+		  xmlhttp=new XMLHttpRequest();
+		  }
+		else
+		  {
+		  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		  }
+		xmlhttp.onreadystatechange=function()
+		  {
+		  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		    {
+			  alert("success")
+		    
+		    }
+		  }
+		xmlhttp.open("POST","../servlet/ajaxservlet?para=ajax_submit",true);		
+		xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		xmlhttp.send("username="+username+"&"+"userpwd="+userpwd);
+	}

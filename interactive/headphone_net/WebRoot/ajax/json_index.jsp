@@ -50,20 +50,22 @@
 					</form>
 				</div>
 				<div id="right_bottom">
+					<form id="ajax_form"method="post">
 					<ul>
 							<li>
 								<label>用户名：</label>
-								<span><input type="text" name="user_name" id="user_name"/></span>
+								<span><input type="text" name="username" id="username" /></span>
 							</li>
 							<li>
 								<label>密码：</label>
-								<span><input type="text" name="user_pwd" id="user_pwd"/></span>
+								<span><input type="text" name="userpwd" id="userpwd" /></span>
 							</li>
 							<li>
-								<input  class="btn" type="button"  value="ajax提交"/>
+								<input  class="btn" type="button"  onclick="ajax_submit()" value="ajax提交"/>
 								<input  class="btn"  type="reset"  value="重新填写"/>
 							</li>
 						</ul>
+					</form>
 				</div>
 			</div>
 		</div>
