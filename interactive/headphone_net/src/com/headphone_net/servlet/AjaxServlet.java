@@ -1,14 +1,11 @@
 package com.headphone_net.servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import org.omg.PortableInterceptor.SUCCESSFUL;
 
 public class AjaxServlet extends HttpServlet {
 
@@ -33,20 +30,7 @@ public class AjaxServlet extends HttpServlet {
 		String user_pwd=req.getParameter("user_pwd");
 		System.out.println("user_name="+user_name);
 		System.out.println("user_pwd="+user_pwd);
-		try {
-			req.getRequestDispatcher("/headphone/ajax_index.jsp").forward(req,resp);
-		} catch (ServletException | IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		try {
-			PrintWriter out=resp.getWriter();
-			out.write("success");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
+
 
 	}
 }
