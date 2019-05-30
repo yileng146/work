@@ -34,6 +34,7 @@ public class AjaxServlet extends HttpServlet {
 		String userpwd=req.getParameter("userpwd");
 		System.out.println("username="+username);
 		System.out.println("userpwd="+userpwd);
+		System.out.println("ajax提交成功");
 		try {
 			req.getRequestDispatcher("/ajax/ajax_index.jsp").forward(req, resp);
 		} catch (ServletException e) {
@@ -51,6 +52,7 @@ public class AjaxServlet extends HttpServlet {
 		String user_pwd=req.getParameter("user_pwd");
 		System.out.println("user_name="+user_name);
 		System.out.println("user_pwd="+user_pwd);
+		System.out.println("普通提交成功");
 
 		try {
 			req.getRequestDispatcher("/ajax/json_index.jsp").forward(req,resp);
