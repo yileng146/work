@@ -31,18 +31,18 @@
 			</div>
 			<div id="right">
 				<div id="right_top">
-					<form  method="post">
+					<form id="ordinary_form" method="post">
 						<ul>
 							<li>
 								<label>用户名：</label>
-								<span><input type="text" /></span>
+								<span><input type="text" name="user_name" id="user_name"/></span>
 							</li>
 							<li>
 								<label>密码：</label>
-								<span><input type="text" /></span>
+								<span><input type="text" name="user_name" id="user_name" /></span>
 							</li>
 							<li>
-								<input  class="btn" type="button"  value="普通提交"/>
+								<input  class="btn"   type="button" onclick="ordinary_submit()"  value="普通提交"/>
 								<input  class="btn"  type="reset"  value="重新填写"/>
 							</li>
 						</ul>
@@ -53,11 +53,11 @@
 					<ul>
 							<li>
 								<label>用户名：</label>
-								<span><input type="text" /></span>
+								<span><input type="text" name="user_name" id="user_name"/></span>
 							</li>
 							<li>
-								<label>用户名：</label>
-								<span><input type="text" /></span>
+								<label>密码：</label>
+								<span><input type="text" name="user_pwd" id="user_pwd"/></span>
 							</li>
 							<li>
 								<input  class="btn" type="button"  value="ajax提交"/>

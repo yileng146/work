@@ -19,3 +19,10 @@
 	}
 	setTimeout("go2()",1000);
 }
+	function ordinary_submit()
+	{
+		console.log("66666");
+		var ordinary_form=document.getElementById("ordinary_form");
+		ordinary_form.action="../servlet/ajaxservlet?para=ordinamry_submit";
+		ordinary_form.submit();
+	}

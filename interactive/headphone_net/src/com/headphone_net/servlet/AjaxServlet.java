@@ -18,5 +18,7 @@ public class AjaxServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		String para=req.getParameter("ordinary_submit");
+		
 	}
 }

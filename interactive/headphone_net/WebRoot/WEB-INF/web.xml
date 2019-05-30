@@ -14,8 +14,21 @@
   <servlet-name>HeadphoneServlet</servlet-name>
   <servlet-class>com.headphone_net.servlet.HeadphoneSerlvet</servlet-class>
   </servlet>
+  
   <servlet-mapping>
   <servlet-name>HeadphoneServlet</servlet-name>
   <url-pattern>/servlet/headphoneservlet</url-pattern> 
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  <servlet-name>AjaxServlet</servlet-name>
+  <servlet-class>com.headphone_net.servlet.AjaxServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>AjaxServlet</servlet-name>
+  <url-pattern>/servlet/ajaxservlet</url-pattern> 
   </servlet-mapping>
 </web-app>
