@@ -42,7 +42,7 @@
 								<span><input type="text" name="user_name" id="user_name" /></span>
 							</li>
 							<li>
-								<input  class="btn"   type="button" onclick="ordinary_submit()"  value="普通提交"/>
+								<input  class="btn"  type="button" onclick="ordinary_submit()"  value="普通提交"/>
 								<input  class="btn"  type="reset"  value="重新填写"/>
 							</li>
 						</ul>
