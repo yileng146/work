@@ -33,7 +33,7 @@ public class AjaxServlet extends HttpServlet {
 		System.out.println("user_pwd="+user_pwd);
 
 		try {
-			req.getRequestDispatcher("ajax/json_index.jsp").forward(req,resp);
+			req.getRequestDispatcher("/ajax/json_index.jsp").forward(req,resp);
 		} catch (ServletException | IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
