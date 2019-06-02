@@ -31,7 +31,12 @@
               <div class="x-col x-col-center crqQ3Yf" xid="col2" __cid="crqQ3Yf">
                 <span xid="span1" __cid="crqQ3Yf" class="crqQ3Yf" data-bind="text:val(&#34;fShopName&#34;)"></span>
               </div>  
-              <div class="x-col crqQ3Yf" xid="col3" __cid="crqQ3Yf"></div>
+              <div class="x-col  crqQ3Yf" xid="col3" __cid="crqQ3Yf">
+                <a component="$model/UI2/system/components/justep/button/button" class="btn pull-right crqQ3Yf" xid="del_button" style="width:56px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;label&#34;:&#34;删除&#34;}" __cid="crqQ3Yf"> 
+                  <i xid="i4" __cid="crqQ3Yf" class="crqQ3Yf"></i>  
+                  <span xid="span12" __cid="crqQ3Yf" class="crqQ3Yf">删除</span>
+                </a>
+              </div>
             </div>  
             <div component="$model/UI2/system/components/justep/list/list" class="x-list crqQ3Yf" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;cartGoodsData&#34;,&#34;filter&#34;:&#34; $row.val(\&#34;fShopID\&#34;) ==  val(\&#34;id\&#34;)&#34;}" __cid="crqQ3Yf"> 
               <ul class="x-list-template hide crqQ3Yf" xid="listTemplateUl2" __cid="crqQ3Yf" data-bind="foreach:{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}"> 

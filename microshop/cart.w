@@ -46,7 +46,9 @@
     <li xid="li1"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
    <div class="x-col x-col-fixed x-col-center" xid="col1" style="width:auto;"><span component="$UI/system/components/justep/button/checkbox" class="x-checkbox" xid="shopCheckBox" bind-ref='ref("fCheck")' checkedValue="1" onChange="shopCheckBoxChange"></span></div>
    <div class="x-col x-col-center" xid="col2"><span xid="span1" bind-text='val("fShopName")'></span></div>
-   <div class="x-col" xid="col3"></div></div>
+   <div class="x-col " xid="col3"><a component="$UI/system/components/justep/button/button" class="btn pull-right" label="删除" xid="del_button" style="width:56px;">
+   <i xid="i4"></i>
+   <span xid="span12">删除</span></a></div></div>
   <div component="$UI/system/components/justep/list/list" class="x-list" xid="list2" data="cartGoodsData" filter=' $row.val("fShopID") ==  val("id")'>
    <ul class="x-list-template" xid="listTemplateUl2">
     <li xid="li2">
