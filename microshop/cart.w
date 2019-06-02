@@ -10,9 +10,19 @@
   <column label="原价" name="fOldPrice" type="Decimal" xid="xid9"></column>
   <column label="规格" name="fSize" type="String" xid="xid10"></column>
   <column label="数量" name="fNumber" type="Decimal" xid="xid11"></column>
-  <column label="选中" name="fCheck" type="String" xid="xid13"></column></div><div component="$UI/system/components/justep/data/data" autoLoad="true" xid="cartShopData" idColumn="id" onCustomRefresh="cartShopDataCustomRefresh"><column label="ID" name="id" type="String" xid="xid1"></column>
+  <column label="选中" name="fCheck" type="String" xid="xid13"></column>
+  <column isCalculate="true" name="fMoney" type="Decimal" xid="xid14"></column>
+  <rule xid="rule1">
+   <col name="fMoney" xid="ruleCol1">
+    <calculate xid="calculate1">
+     <expr xid="default1">$row.val(&quot;fCheck&quot;)?$row.val(&quot;fPrice&quot;) * $row.val(&quot;fNumber&quot;):0</expr></calculate> </col> </rule></div><div component="$UI/system/components/justep/data/data" autoLoad="true" xid="cartShopData" idColumn="id" onCustomRefresh="cartShopDataCustomRefresh"><rule xid="rule2">
+   <col expr="$model.cartGoodsData.sum('fMoney'.function(ev){return ev.row.val('fShopID') == $row.val('id');})" name="fTotal" xid="ruleCol2">
+    <calculate xid="calculate2">
+     <expr xid="default2">$model.cartGoodsData.val(&quot;fMoney&quot;)</expr></calculate> </col> </rule>
+  <column label="ID" name="id" type="String" xid="xid1"></column>
   <column label="商铺名称" name="fShopName" type="String" xid="xid2"></column>
-  <column label="选中" name="fCheck" type="String" xid="xid12"></column></div></div>  
+  <column label="选中" name="fCheck" type="String" xid="xid12"></column>
+  <column isCalculate="true" name="fTotal" type="Decimal" xid="xid15"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1"> 
@@ -62,7 +72,7 @@
   </div></div></div></li></ul> </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
    <div class="x-col x-col-center" xid="col4" style="text-align:right;"><span xid="span3"><![CDATA[总价（不含运费）]]></span></div>
-   <div class="x-col x-col-fixed" xid="col5" style="width:auto;"></div>
+   <div class="x-col x-col-fixed" xid="col5" style="width:auto;"><span xid="span10" bind-text='"￥" + val("fTotal")'></span></div>
    <div class="x-col x-col-fixed x-col-center" xid="col6" style="width:auto;"><a component="$UI/system/components/justep/button/button" class="btn btn-default" label="去结算" xid="button1">
    <i xid="i1"></i>
    <span xid="span4">去结算</span></a></div></div></li></ul> </div></div>
