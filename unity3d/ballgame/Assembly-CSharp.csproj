@@ -66,6 +66,7 @@
     <Compile Include="Assets\Assets\script\Enemy\Enemy.cs" />
     <Compile Include="Assets\Assets\script\Player\Cameramove.cs" />
     <Compile Include="Assets\Assets\script\Player\Player.cs" />
+    <Compile Include="Assets\Assets\script\Player\PlayerAttact.cs" />
     <Compile Include="Assets\Assets\script\Player\PlayerMove.cs" />
     <Compile Include="Assets\Assets\script\Player\test.cs" />
     <Reference Include="Unity.Timeline.Editor">
