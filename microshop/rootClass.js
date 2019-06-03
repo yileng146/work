@@ -17,9 +17,12 @@ define(function(require){
 	};
 
 	Model.prototype.list1Click = function(event){
-        justep.Shell.showPage("class.w");
+		var rootID=this.comp("classData").val("id");
+        justep.Shell.showPage(require.toUrl("./class.w"),{"rootID":rootID});
         
 	};
+
+
 
 	return Model;
 });

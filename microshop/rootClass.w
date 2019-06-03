@@ -12,7 +12,8 @@
           class="x-titlebar">
           <div class="x-titlebar-left"> 
             </div>  
-          <div class="x-titlebar-title">搜索</div>  
+          <div class="x-titlebar-title">搜索
+  </div>  
           <div class="x-titlebar-right reverse"> 
           </div>
         </div> 
@@ -22,7 +23,7 @@
     <li xid="li1" class="col-xs-6"><div class="media" xid="media1">
    <div class="media-left" xid="mediaLeft1">
     <a href="#" xid="a1">
-     <img class="media-object" src="" alt="" xid="image1" bind-attr-src=' val("fImg")' style="width:40px;"></img></a> </div> 
+     <img class="media-object" src="" alt="" xid="image1" bind-attr-src='val("fImg")' style="width:40px;"></img></a> </div> 
    <div class="media-body" xid="mediaBody1">
     <h4 class="media-heading" xid="h41" bind-text='val("fClassName")'>Media heading</h4>
   <span xid="span1" bind-text='val("fDescription")'></span></div> </div></li></ul> 

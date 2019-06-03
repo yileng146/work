@@ -22,5 +22,20 @@ define(function(require) {
 		});
 	};
 
+	Model.prototype.modelParamsReceive = function(event){
+//		alert(this.params.rootID);
+	};
+
+	Model.prototype.list3Click = function(event){
+		justep.shell.showPage("list",{
+		"classID":this.comp("threeClassData").val('fClassName')});
+	};
+
+	Model.prototype.modelActive = function(event){
+		if (window.statusBar) {
+			window.statusBar.styleDefault();
+		}
+	};
+
 	return Model;
 });

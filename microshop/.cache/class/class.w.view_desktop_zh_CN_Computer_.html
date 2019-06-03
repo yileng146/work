@@ -18,13 +18,13 @@
       </div> 
     </div>  
     <div class="x-panel-content cEzyYz2" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEzyYz2">
-      <div component="$model/UI2/system/components/justep/list/list" class="x-list cEzyYz2" xid="list3" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'},event:{click:$model._callModelFn.bind($model, 'list3Click')}" data-config="{&#34;data&#34;:&#34;secondClassData&#34;,&#34;filter&#34;:&#34; $row.val(\&#34;fRootID\&#34;)==$model.params.rootID&#34;}" __cid="cEzyYz2"> 
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cEzyYz2" xid="list3" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'},event:{click:$model._callModelFn.bind($model, 'list3Click')}" data-config="{&#34;data&#34;:&#34;secondClassData&#34;,&#34;filter&#34;:&#34; $model.secondClassData.val(\&#34;fRootID\&#34;)==$model.params.rootID&#34;}" __cid="cEzyYz2"> 
         <ul class="x-list-template hide cEzyYz2" xid="listTemplateUl3" __cid="cEzyYz2" data-bind="foreach:{data:$model.foreach_list3($element),afterRender:$model.foreach_afterRender_list3.bind($model,$element)}"> 
           <li xid="li3" class="col-xs-3 cEzyYz2" __cid="cEzyYz2">
             <div class="media cEzyYz2" xid="media2" __cid="cEzyYz2"> 
               <div class="media-top cEzyYz2" xid="mediaLeft2" __cid="cEzyYz2"> 
                 <a href="#" xid="a2" __cid="cEzyYz2" class="cEzyYz2"> 
-                  <img class="media-object cEzyYz2" src="" alt="" xid="image3" style="width:40px;" __cid="cEzyYz2" data-bind="attr:{src:$model.threeClassData.val(&#34;fImg&#34;)}">
+                  <img class="media-object cEzyYz2" src="" alt="" xid="image3" style="width:40px;" __cid="cEzyYz2" data-bind="attr:{src:val(&#34;fImg&#34;)}">
                 </a> 
               </div>  
               <div class="media-body cEzyYz2" xid="mediaBody2" __cid="cEzyYz2"> 

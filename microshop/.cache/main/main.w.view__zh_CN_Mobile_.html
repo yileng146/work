@@ -86,14 +86,14 @@
               <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="crqQ3Yf" class="crqQ3Yf"></div>  
               <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc63aY7b-iosstatusbar crqQ3Yf" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="crqQ3Yf">  
                 <div class="x-panel-top crqQ3Yf" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="crqQ3Yf"> 
-                  <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar crqQ3Yf" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;标题&#34;}" __cid="crqQ3Yf"> 
+                  <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar crqQ3Yf" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;购物车&#34;}" __cid="crqQ3Yf"> 
                     <div class="x-titlebar-left crqQ3Yf" __cid="crqQ3Yf"> 
                       <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon crqQ3Yf" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&#34;icon&#34;:&#34;icon-chevron-left&#34;,&#34;label&#34;:&#34;&#34;}" __cid="crqQ3Yf"> 
                         <i class="icon-chevron-left crqQ3Yf" __cid="crqQ3Yf"></i>  
                         <span __cid="crqQ3Yf" class="crqQ3Yf"></span> 
                       </a> 
                     </div>  
-                    <div class="x-titlebar-title crqQ3Yf" __cid="crqQ3Yf">标题</div>  
+                    <div class="x-titlebar-title crqQ3Yf" __cid="crqQ3Yf">购物车</div>  
                     <div class="x-titlebar-right  crqQ3Yf" __cid="crqQ3Yf"> 
                       <div class="empty crqQ3Yf" __cid="crqQ3Yf"></div> 
                     </div> 
@@ -113,7 +113,12 @@
                           <div class="x-col x-col-center crqQ3Yf" xid="col2" __cid="crqQ3Yf"> 
                             <span xid="span1" __cid="crqQ3Yf" class="crqQ3Yf" data-bind="text:val(&#34;fShopName&#34;)"></span> 
                           </div>  
-                          <div class="x-col crqQ3Yf" xid="col3" __cid="crqQ3Yf"></div> 
+                          <div class="x-col  crqQ3Yf" xid="col3" __cid="crqQ3Yf"> 
+                            <a component="$model/UI2/system/components/justep/button/button" class="btn pull-right crqQ3Yf" xid="del_button" style="width:56px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;label&#34;:&#34;删除&#34;}" __cid="crqQ3Yf"> 
+                              <i xid="i4" __cid="crqQ3Yf" class="crqQ3Yf"></i>  
+                              <span xid="span12" __cid="crqQ3Yf" class="crqQ3Yf">删除</span> 
+                            </a> 
+                          </div> 
                         </div>  
                         <div component="$model/UI2/system/components/justep/list/list" class="x-list crqQ3Yf" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;cartGoodsData&#34;,&#34;filter&#34;:&#34; $row.val(\&#34;fShopID\&#34;) ==  val(\&#34;id\&#34;)&#34;}" __cid="crqQ3Yf"> 
                           <ul class="x-list-template hide crqQ3Yf" xid="listTemplateUl2" __cid="crqQ3Yf" data-bind="foreach:{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}"> 
@@ -131,7 +136,7 @@
                                 <div class="x-col crqQ3Yf" xid="col9" __cid="crqQ3Yf"> 
                                   <div component="$model/UI2/system/components/justep/row/row" class="x-row crqQ3Yf" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="crqQ3Yf"> 
                                     <div class="x-col crqQ3Yf" xid="col10" __cid="crqQ3Yf"> 
-                                      <span xid="span2" __cid="crqQ3Yf" class="crqQ3Yf" data-bind="text:val(&#34;fTitle&#34;)"></span> 
+                                      <span xid="span2" __cid="crqQ3Yf" class="crqQ3Yf" data-bind="text:val(&#34;fTitle&#34;).substring(0,14);"></span> 
                                     </div> 
                                   </div>  
                                   <div component="$model/UI2/system/components/justep/row/row" class="x-row crqQ3Yf" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="crqQ3Yf"> 
@@ -141,7 +146,8 @@
                                   </div>  
                                   <div component="$model/UI2/system/components/justep/row/row" class="x-row crqQ3Yf" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="crqQ3Yf"> 
                                     <div class="x-col crqQ3Yf" xid="col16" __cid="crqQ3Yf"> 
-                                      <span xid="span6" __cid="crqQ3Yf" class="crqQ3Yf" data-bind="text:'￥' +  val(&#34;fPrice&#34;)"></span> 
+                                      <span xid="span6" __cid="crqQ3Yf" class="crqQ3Yf" data-bind="text:'￥' +  val(&#34;fPrice&#34;)"></span>  
+                                      <span xid="span9" style="text-decoration:line-through ;" __cid="crqQ3Yf" class="crqQ3Yf" data-bind="text:'￥' + val(&#34;fOldPrice&#34;),visible:val(&#34;fPrice&#34;) < val(&#34;fOldPrice&#34;)"></span> 
                                     </div>  
                                     <div class="x-col x-col-fixed crqQ3Yf" xid="col17" style="width:auto;" __cid="crqQ3Yf"> 
                                       <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon crqQ3Yf" xid="subBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:subBtnClick" data-config="{&#34;icon&#34;:&#34;icon-android-remove&#34;,&#34;label&#34;:&#34;button&#34;}" __cid="crqQ3Yf"> 
@@ -168,7 +174,9 @@
                           <div class="x-col x-col-center crqQ3Yf" xid="col4" style="text-align:right;" __cid="crqQ3Yf"> 
                             <span xid="span3" __cid="crqQ3Yf" class="crqQ3Yf">总价（不含运费）</span> 
                           </div>  
-                          <div class="x-col x-col-fixed crqQ3Yf" xid="col5" style="width:auto;" __cid="crqQ3Yf"></div>  
+                          <div class="x-col x-col-fixed crqQ3Yf" xid="col5" style="width:auto;" __cid="crqQ3Yf"> 
+                            <span xid="span10" __cid="crqQ3Yf" class="crqQ3Yf" data-bind="text:&#34;￥&#34; + val(&#34;fTotal&#34;)"></span> 
+                          </div>  
                           <div class="x-col x-col-fixed x-col-center crqQ3Yf" xid="col6" style="width:auto;" __cid="crqQ3Yf"> 
                             <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default crqQ3Yf" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;label&#34;:&#34;去结算&#34;}" __cid="crqQ3Yf"> 
                               <i xid="i1" __cid="crqQ3Yf" class="crqQ3Yf"></i>  

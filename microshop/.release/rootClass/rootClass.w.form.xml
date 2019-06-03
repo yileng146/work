@@ -20,7 +20,7 @@
             <div class="media cYZja2y" xid="media1" __cid="cYZja2y"> 
               <div class="media-left cYZja2y" xid="mediaLeft1" __cid="cYZja2y"> 
                 <a href="#" xid="a1" __cid="cYZja2y" class="cYZja2y"> 
-                  <img class="media-object cYZja2y" src="" alt="" xid="image1" bind-attr-src=" val(&quot;fImg&quot;)" style="width:40px;" __cid="cYZja2y"/>
+                  <img class="media-object cYZja2y" src="" alt="" xid="image1" bind-attr-src="val(&quot;fImg&quot;)" style="width:40px;" __cid="cYZja2y"/>
                 </a> 
               </div>  
               <div class="media-body cYZja2y" xid="mediaBody1" __cid="cYZja2y"> 

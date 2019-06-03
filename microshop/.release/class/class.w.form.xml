@@ -2,7 +2,7 @@
 
 <div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cEzyYz2" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cEzyYz2" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
   <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
-  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cEzyYz2" class="cEzyYz2"></div>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onActive:modelActive;onParamsReceive:modelParamsReceive" __cid="cEzyYz2" class="cEzyYz2"></div>  
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcR77Vzi-iosstatusbar cEzyYz2" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cEzyYz2"> 
     <div class="x-panel-top cEzyYz2" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEzyYz2"> 
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cEzyYz2" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;标题&quot;}" __cid="cEzyYz2"> 
@@ -19,13 +19,13 @@
       </div> 
     </div>  
     <div class="x-panel-content cEzyYz2" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEzyYz2">
-      <div component="$model/UI2/system/components/justep/list/list" class="x-list cEzyYz2" xid="list3" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;threeClassData&quot;}" __cid="cEzyYz2"> 
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cEzyYz2" xid="list3" bind-click="list3Click" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;secondClassData&quot;,&quot;filter&quot;:&quot; $row.val(\&quot;fRootID\&quot;)==$model.params.rootID&quot;}" __cid="cEzyYz2"> 
         <ul class="x-list-template hide cEzyYz2" xid="listTemplateUl3" bind-foreach="{data:$model.foreach_list3($element),afterRender:$model.foreach_afterRender_list3.bind($model,$element)}" __cid="cEzyYz2"> 
           <li xid="li3" class="col-xs-3 cEzyYz2" __cid="cEzyYz2">
             <div class="media cEzyYz2" xid="media2" __cid="cEzyYz2"> 
               <div class="media-top cEzyYz2" xid="mediaLeft2" __cid="cEzyYz2"> 
                 <a href="#" xid="a2" __cid="cEzyYz2" class="cEzyYz2"> 
-                  <img class="media-object cEzyYz2" src="" alt="" xid="image3" bind-attr-src=" val(&quot;fImg&quot;)" style="width:40px;" __cid="cEzyYz2"/>
+                  <img class="media-object cEzyYz2" src="" alt="" xid="image3" bind-attr-src="$model.threeClassData.val(&quot;fImg&quot;)" style="width:40px;" __cid="cEzyYz2"/>
                 </a> 
               </div>  
               <div class="media-body cEzyYz2" xid="mediaBody2" __cid="cEzyYz2"> 
