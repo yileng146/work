@@ -29,6 +29,8 @@ public class PlayerAttact : MonoBehaviour
                 Debug.DrawRay(moveray.origin, moveray.direction * 100, Color.green, 10);
                 //实例化子弹对象 
                 Bullet bullet = Instantiate(bulletPerfab);//生成预制体的源头和想生成的方向位置
+                Physics.IgnoreCollision(bullet.transform.GetComponent<Collider>(),this.GetComponent<Collider>());
+                bullet.BulletShoot(moveray);
 
             }
         }
