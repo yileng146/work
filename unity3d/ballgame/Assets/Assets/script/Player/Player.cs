@@ -1,47 +1,44 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System;
 
 public class Player : MonoBehaviour
 {
 
-    // Use this for initialization
-    public float accelertion = 650;
-    public float maxspeed = 4500;
-    private Rigidbody body;
-    private KeyCode[] inputkeys;
-    private Vector3[] movedir;
+    public int HP;//定义玩家生命值
+    public event Action<Player> Playerdeath;
+    private Text Surplus_HP;
 
+    // Start is called before the first frame update
     void Start()
     {
-        body = this.GetComponent<Rigidbody>();
-        inputkeys = new KeyCode[]{
-           KeyCode.UpArrow,KeyCode.DownArrow,KeyCode.LeftArrow,KeyCode.RightArrow
-           };
-        movedir = new Vector3[]{
-           Vector3.forward,Vector3.back,Vector3.left,Vector3.right
-           };
+        //Surplus_HP = Text.FindObjectOfType<Text>();
+        //Surplus_HP.text = HP.ToString();
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Enemy enemy = collision.collider.GetComponent<Enemy>();
+        if (enemy)
+        {
+            enemy.Attact(this);
+            print(this.HP);
+            //Surplus_HP.text = HP.ToString();
+            if (HP<=0)
+            {
+                if (Playerdeath!=null)
+                {
+                    Playerdeath(this);
+                }
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < inputkeys.Length; i++)
-        {
-            KeyCode key = inputkeys[i];
-            if (Input.GetKey(key))
-            {
-                Vector3 moveforce = movedir[i] * Time.deltaTime * accelertion;
-                PlayerMovement(moveforce);
-            }
-        }
-
-    }
-    void PlayerMovement(Vector3 moveforce)
-    {
-        if (body.velocity.magnitude * accelertion > maxspeed)
-            body.AddForce(-moveforce);
-        else
-            body.AddForce(moveforce);
+        
     }
 }
