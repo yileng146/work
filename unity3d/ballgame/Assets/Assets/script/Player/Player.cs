@@ -28,10 +28,13 @@ public class Player : MonoBehaviour
             //Surplus_HP.text = HP.ToString();
             if (HP<=0)
             {
-                if (Playerdeath!=null)
+                
+                if (Playerdeath != null)
                 {
+                    print("text");
                     Playerdeath(this);
                 }
+
             }
         }
     }
