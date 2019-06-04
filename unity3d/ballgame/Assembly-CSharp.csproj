@@ -65,6 +65,7 @@
     <Compile Include="Assets\Assets\script\Bullet\Bullet.cs" />
     <Compile Include="Assets\Assets\script\Enemy\Enemy.cs" />
     <Compile Include="Assets\Assets\script\EnemyProduct.cs" />
+    <Compile Include="Assets\Assets\script\GameControl.cs" />
     <Compile Include="Assets\Assets\script\Player\Cameramove.cs" />
     <Compile Include="Assets\Assets\script\Player\Player.cs" />
     <Compile Include="Assets\Assets\script\Player\PlayerAttact.cs" />
