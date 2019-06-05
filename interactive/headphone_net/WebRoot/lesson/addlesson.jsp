@@ -47,8 +47,8 @@
 					
 				</table>
 				<div id="button">
-				<input lesson="btstyle" type="button" onclick="add_lesson()" value="提交" />
-				<input lesson="btstyle" type="reset"  value="重写" />
+				<input class="btstyle" type="button" onclick="add_lesson()" value="提交" />
+				<input class="btstyle" type="reset"  value="重写" />
 				</div>
 			</form>
 			</div>

@@ -28,7 +28,17 @@
   </servlet>
   
   <servlet-mapping>
-  <servlet-name>AjaxServlet</servlet-name>
-  <url-pattern>/servlet/ajaxservlet</url-pattern> 
+  <servlet-name>LessonServlet</servlet-name>
+  <url-pattern>/servlet/lessonservlet</url-pattern> 
+  </servlet-mapping>
+    
+  <servlet>
+  <servlet-name>LessonServlet</servlet-name>
+  <servlet-class>com.headphone_net.servlet.LessonServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LessonServlet</servlet-name>
+  <url-pattern>/servlet/lessonservlet</url-pattern> 
   </servlet-mapping>
 </web-app>
