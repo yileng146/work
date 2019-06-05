@@ -55,7 +55,7 @@ public class LessondaoImpl {
 		
 		
 		try {
-			String sql="insert into t_lesson(lesson_name,lesson_class,lesson_author,lesson_price,lesson_time) values(?,?,?,?,?)";
+			String sql="insert into t_lesson(lesson_name,lesson_price,lesson_class,lesson_author,lesson_time) values(?,?,?,?,?)";
 			PreparedStatement pstmt=conn.prepareStatement(sql);
 			pstmt.setString(1,lesson.getLesson_name());
 			pstmt.setInt(2,lesson.getLesson_price());

@@ -65,8 +65,6 @@ public class LessonServlet extends HttpServlet{
 		}
 		
 	}
-		
-
 	public String readJSONObj(HttpServletRequest req){
 		String jsonStr="";
 		StringBuffer jsonStrBuffer=new StringBuffer();
