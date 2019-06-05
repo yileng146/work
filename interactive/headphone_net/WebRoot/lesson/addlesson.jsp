@@ -19,7 +19,6 @@
 				
 			</div>
 			<div id="main">
-			 <form action="../servlet/lessonservlet?para=add" method="post">
 				<table>
 					<caption>添加课程</caption>
 					<tr>
@@ -50,7 +49,6 @@
 				<input class="btstyle" type="button" onclick="add_lesson()" value="提交" />
 				<input class="btstyle" type="reset"  value="重写" />
 				</div>
-			</form>
 			</div>
 			<div id="foot">
 				Copyright@YL

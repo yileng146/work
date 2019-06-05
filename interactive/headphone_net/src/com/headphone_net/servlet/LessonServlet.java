@@ -42,14 +42,21 @@ public class LessonServlet extends HttpServlet{
 		Gson gson=new Gson();
 		lesson lesson=gson.fromJson(jsonStr, lesson.class);
 		System.out.println("lesson"+lesson);
-		String lesson_name=lesson.getLesson_name();
+		
+		Timestamp lesson_time=new Timestamp(System.currentTimeMillis());
+		System.out.println("lesson_time"+lesson_time);
+		lesson.setLesson_time(lesson_time);
+		
 		LessondaoImpl lessondaoimp=new LessondaoImpl();
-		ArrayList<lesson> lessonlist=lessondaoimp.searchlessonByName(lesson_name);
-		String json_array=gson.toJson(lessonlist);
-		System.out.println(json_array);
+		boolean flag=lessondaoimp.insertlesson(lesson);	
+		String serverJsonStr ="{\"msg\":\"add success!\"}";
+		if(!flag)
+		{
+			serverJsonStr ="{\"msg\":\"add failure!\"}";
+		}
 		try {
-			PrintWriter out = response.getWriter();
-			out.println(json_array);
+			PrintWriter out=response.getWriter();
+			out.println(serverJsonStr);
 			out.flush();
 			out.close();
 		} catch (IOException e) {
@@ -58,6 +65,8 @@ public class LessonServlet extends HttpServlet{
 		}
 		
 	}
+		
+
 	public String readJSONObj(HttpServletRequest req){
 		String jsonStr="";
 		StringBuffer jsonStrBuffer=new StringBuffer();
@@ -80,4 +89,3 @@ public class LessonServlet extends HttpServlet{
 
 		
 		
-}

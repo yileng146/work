@@ -10,17 +10,17 @@ function add_lesson(){
     var lessonJsonObj={
     	"lesson_name":lesson_name,
     	"lesson_class":lesson_class,
-    	"lesson_author":lesson_sex,
-    	"lesson_price":lesson_nationality,
+    	"lesson_author":lesson_author,
+    	"lesson_price":lesson_price
     };
     console.log("lessonJsonObj="+lessonJsonObj);
 	var lessonJsonStr=JSON.stringify(lessonJsonObj)
 	console.log("lessonJsonStr="+lessonJsonStr);	
-	mui.ajax('http://localhost:8887/headphone_net/Servlets/lessonservlet?para=add_lesson_pc',{
+	mui.ajax('http://localhost:8887/headphone_net/servlet/lessonservlet?para=add_lesson_pc',{
 		data:lessonJsonObj,
 		dataType:'json',//服务器返回json格式数据
 		type:'post',//HTTP请求类型
-		timeout:5,//超时时间设置为5秒；
+		timeout:0,//超时时间设置为5秒；
 		headers:{'Content-Type':'application/json'},           
 		success:function(data){
 			//服务器返回响应，根据响应结果，分析是否登录成功；

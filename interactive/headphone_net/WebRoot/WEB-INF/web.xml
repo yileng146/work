@@ -28,8 +28,8 @@
   </servlet>
   
   <servlet-mapping>
-  <servlet-name>LessonServlet</servlet-name>
-  <url-pattern>/servlet/lessonservlet</url-pattern> 
+  <servlet-name>AjaxServlet</servlet-name>
+  <url-pattern>/servlet/ajaxservlet</url-pattern> 
   </servlet-mapping>
     
   <servlet>
