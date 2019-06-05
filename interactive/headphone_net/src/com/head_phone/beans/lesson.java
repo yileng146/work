@@ -48,6 +48,12 @@ public class lesson {
 	public void setLesson_time(Timestamp lesson_time) {
 		this.lesson_time = lesson_time;
 	}
+	@Override
+	public String toString() {
+		return "lesson [lesson_id=" + lesson_id + ", lesson_name=" + lesson_name + ", lesson_class=" + lesson_class
+				+ ", lesson_author=" + lesson_author + ", lesson_price=" + lesson_price + ", lesson_time=" + lesson_time
+				+ "]";
+	}
 	
 	
 }

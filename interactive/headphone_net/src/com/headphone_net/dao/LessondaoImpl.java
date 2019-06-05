@@ -55,12 +55,12 @@ public class LessondaoImpl {
 		
 		
 		try {
-			String sql="insert into t_lesson(lesson_name,lesson_class,lesson_author,lesson_price,lesson_time) values(?,?,?,?,?,?)";
+			String sql="insert into t_lesson(lesson_name,lesson_class,lesson_author,lesson_price,lesson_time) values(?,?,?,?,?)";
 			PreparedStatement pstmt=conn.prepareStatement(sql);
 			pstmt.setString(1,lesson.getLesson_name());
-			pstmt.setString(2,lesson.getLesson_class());
-			pstmt.setString(3,lesson.getLesson_author());
-			pstmt.setInt(4,lesson.getLesson_price());
+			pstmt.setInt(2,lesson.getLesson_price());
+			pstmt.setString(3,lesson.getLesson_class());
+			pstmt.setString(4,lesson.getLesson_author());
 		    pstmt.setTimestamp(5,lesson.getLesson_time() );
 			int result=pstmt.executeUpdate();
 			if (1==result) {

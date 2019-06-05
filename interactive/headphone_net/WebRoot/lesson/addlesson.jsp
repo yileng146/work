@@ -55,11 +55,12 @@
 			</div>
 		</div>
 		
+		<script src="../js/mui.js"type="text/javascript" charset="UTF-8"></script>
+		<script src="../js/mui.min.js"type="text/javascript" charset="UTF-8"></script>
 		<script src="../utf8-jsp/ueditor.config.js" type="text/javascript" charset="UTF-8"></script>
 		<script src="../utf8-jsp/ueditor.all.js" type="text/javascript" charset="UTF-8"></script>
 		<script src="../js/lesson/addlesson.js" type="text/javascript" charset="UTF-8"></script>
-		<script src="../js/mui.js"type="text/javascript" charset="UTF-8"></script>
-		<script src="../js/mui.min.js"type="text/javascript" charset="UTF-8"></script>
+		
 
 
 	</body>
