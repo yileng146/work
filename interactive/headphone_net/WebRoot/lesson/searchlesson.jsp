@@ -20,10 +20,10 @@
 			</div>
 			<div id="main">
 			 <form >
-				<table id="">
+				<table id="lessontable">
 					<caption>
 						<input type="text" name="lesson_name" id="lesson_name"  />
-                         <input type="submit" value="查询" onclick="searchlesson()" />					
+                         <input type="submit" value="查询课程" onclick="search_lesson()" />					
 					</caption>
 					<tr>
 					<th>课程序号</th>
@@ -43,9 +43,8 @@
 				Copyright@YL
 			</div>
 		</div>
-		<script src="../js/lesson/searchlesson_ajax.js" charset="utf-8" type="text/javascript"></script>
 		<script src="../js/mui.js" charset="utf-8" type="text/javascript"></script>
 		<script src="../js/mui.min.js"type="text/javascript" charset="UTF-8"></script>
-
+		<script src="../js/lesson/searchlesson.js" charset="utf-8" type="text/javascript"></script>
 	</body>
 </html>

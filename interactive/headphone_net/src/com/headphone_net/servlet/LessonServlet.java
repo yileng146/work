@@ -33,12 +33,13 @@ public class LessonServlet extends HttpServlet{
 		{
 			add_lesson_pc(request,response);
 			System.out.println("jsonStr");
-		}else if(para.equals("seach_lesson_pc"))
+		}else if(para.equals("search_lesson_pc"))
 		{
-			seach_lesson_pc(request,response);
+			search_lesson_pc(request,response);
+			System.out.println("6666");
 		}
 	}
-	private void seach_lesson_pc(HttpServletRequest request, HttpServletResponse response) {
+	private void search_lesson_pc(HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
 		String jsonStr=readJSONObj(request);
 		System.out.println("jsonStr"+jsonStr);
@@ -47,7 +48,7 @@ public class LessonServlet extends HttpServlet{
 		System.out.println("Lesson"+lesson);
 		String lesson_name=lesson.getLesson_name();
 		LessondaoImpl lessondaoImpl=new LessondaoImpl();
-		ArrayList<lesson> lessonlist=lessondaoImpl.searchlessonByName(lesson_name);
+		ArrayList<lesson> lessonlist=lessondaoImpl.searchLessonByName(lesson_name);
 		String json_array=gson.toJson(lessonlist);
 		System.out.println(json_array);
 		try {

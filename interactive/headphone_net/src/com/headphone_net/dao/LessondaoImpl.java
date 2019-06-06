@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import com.head_phone.beans.lesson;
 import com.headphone_src.utils.DBUtil;
@@ -116,27 +117,41 @@ public class LessondaoImpl {
 		return lesson;
 	}
 	
-	public ArrayList<lesson> searchlessonByName(String phone_name_para){
+	public ArrayList<lesson> searchLessonByName(String lesson_name_para)
+	{
 		ArrayList<lesson> lessonlist=new ArrayList<lesson>();
-		DBUtil dbUtil=new DBUtil();
-		Connection conn= (Connection) dbUtil.getConn();
+		DBUtil dBUtil=new DBUtil();
+		Connection conn= dBUtil.getConn();	
 		ResultSet rs=null;
+		PreparedStatement psmt=null;
+		String sql="";
 		try {
-			String sql="select * from t_lesson where lesson_name=?";
-			PreparedStatement pstmt=conn.prepareStatement(sql);
-			pstmt.setString(1, phone_name_para);
-			
-			rs=pstmt.executeQuery();
-			while (rs.next()) {
+			if(lesson_name_para.equals("")||lesson_name_para==null){
+				sql="select * from t_lesson";
+				 psmt=conn.prepareStatement(sql);	
+			}else {
+				sql="select * from t_lesson where lesson_name=?";
+				psmt=conn.prepareStatement(sql);
+				psmt.setString(1, lesson_name_para);
+			}
+			rs=psmt.executeQuery();		
+			while(rs.next())
+			{
 				int lesson_id=rs.getInt("lesson_id");
 				String lesson_name=rs.getString("lesson_name");
-				float lesson_price=rs.getFloat("lesson_price");
 				String lesson_class=rs.getString("lesson_class");
+				String lesson_author=rs.getString("lesson_author");
+				int lesson_price=rs.getInt("lesson_price");
+				Timestamp lesson_time=rs.getTimestamp("lesson_time");
 				lesson lesson=new lesson();
-				
-				
+				lesson.setLesson_id(lesson_id);
+				lesson.setLesson_name(lesson_name);
+				lesson.setLesson_class(lesson_class);
+				lesson.setLesson_author(lesson_author);
+				lesson.setLesson_price(lesson_price);
+				lesson.setLesson_time(lesson_time);
 				lessonlist.add(lesson);
-			}
+			}			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -145,12 +160,9 @@ public class LessondaoImpl {
 				rs.close();
 				conn.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		}
-		
-		
+		}	
 		return lessonlist;
 	}
 	public boolean deleteByID(int lesson_id_para) {

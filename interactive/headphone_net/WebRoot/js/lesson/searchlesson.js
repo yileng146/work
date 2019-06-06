@@ -1,4 +1,4 @@
-function seach_lesson()
+function search_lesson()
 {
 	var lesson_name=document.getElementById("lesson_name").value;
 	console.log("lesson_name="+lesson_name);
@@ -28,12 +28,11 @@ function display(json_array){
 		var json_obj=json_array[i];
 		var json_str=JSON.stringify(json_obj);
 		console.log("jsonstr="+json_str);
-		var lesson_no=json_obj.lesson_no;
+		var lesson_id=json_obj.lesson_id;
 		var lesson_name=json_obj.lesson_name;
-		var lesson_age=json_obj.lesson_age;
-		var lesson_sex=json_obj.lesson_sex;
-		var lesson_nationality=json_obj.lesson_nationality;
-		var lesson_text=json_obj.lesson_text;
+		var lesson_class=json_obj.lesson_class;
+		var lesson_author=json_obj.lesson_author;
+		var lesson_price=json_obj.lesson_price;
 		var lesson_time=json_obj.lesson_time;
 		
 		var tr=document.createElement("tr");
@@ -44,16 +43,14 @@ function display(json_array){
 		var td5=document.createElement("td");
 		var td6=document.createElement("td");
 		var td7=document.createElement("td");
-		var td8=document.createElement("td");
 
-		td1.innerHTML=lesson_no;
+		td1.innerHTML=lesson_id;
 		td2.innerHTML=lesson_name;
-		td3.innerHTML=lesson_age;
-		td4.innerHTML=lesson_sex;
-		td5.innerHTML=lesson_nationality;
-		td6.innerHTML=lesson_text;
-		td7.innerHTML=lesson_time;
-		td8.innerHTML='<a href="#">修改</a>'+'<a href="#">删除</a>'
+		td3.innerHTML=lesson_class;
+		td4.innerHTML=lesson_author;
+		td5.innerHTML=lesson_price;
+		td6.innerHTML=lesson_time;
+		td7.innerHTML='<a href="#">修改</a>'+'<a href="#">删除</a>'
 		
 		tr.appendChild(td1);
 		tr.appendChild(td2);
@@ -62,7 +59,6 @@ function display(json_array){
 		tr.appendChild(td5);
 		tr.appendChild(td6);
 		tr.appendChild(td7);
-		tr.appendChild(td8);
 		lessontable.appendChild(tr);
 
  
