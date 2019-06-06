@@ -33,6 +33,31 @@ public class LessonServlet extends HttpServlet{
 		{
 			add_lesson_pc(request,response);
 			System.out.println("jsonStr");
+		}else if(para.equals("seach_lesson_pc"))
+		{
+			seach_lesson_pc(request,response);
+		}
+	}
+	private void seach_lesson_pc(HttpServletRequest request, HttpServletResponse response) {
+		// TODO Auto-generated method stub
+		String jsonStr=readJSONObj(request);
+		System.out.println("jsonStr"+jsonStr);
+		Gson gson=new Gson();
+		lesson lesson=gson.fromJson(jsonStr, lesson.class);
+		System.out.println("Lesson"+lesson);
+		String lesson_name=lesson.getLesson_name();
+		LessondaoImpl lessondaoImpl=new LessondaoImpl();
+		ArrayList<lesson> lessonlist=lessondaoImpl.searchlessonByName(lesson_name);
+		String json_array=gson.toJson(lessonlist);
+		System.out.println(json_array);
+		try {
+			PrintWriter out = response.getWriter();
+			out.println(json_array);
+			out.flush();
+			out.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 	private void add_lesson_pc(HttpServletRequest request, HttpServletResponse response) {
