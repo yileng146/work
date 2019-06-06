@@ -41,4 +41,14 @@
   <servlet-name>LessonServlet</servlet-name>
   <url-pattern>/servlet/lessonservlet</url-pattern> 
   </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>CodeServlet</servlet-name>
+  <servlet-class>com.headphone_net.servlet.CodeServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>CodeServlet</servlet-name>
+  <url-pattern>/servlet/codeservlet</url-pattern> 
+  </servlet-mapping>
 </web-app>

@@ -123,7 +123,7 @@ public class HeadphonedaoImpl {
 		return headphone;
 	}
 	
-	public ArrayList<Headphone> searchHeadPhoneByName(String phone_name_para){
+	public ArrayList<Headphone> searchHeadPhoneByName(String code_name_para){
 		ArrayList<Headphone> headphonelist=new ArrayList<Headphone>();
 		DBUtil dbUtil=new DBUtil();
 		Connection conn= (Connection) dbUtil.getConn();
