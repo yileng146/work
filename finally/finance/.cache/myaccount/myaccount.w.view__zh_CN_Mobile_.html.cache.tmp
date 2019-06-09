@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cv2iYVj" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cv2iYVj" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cv2iYVj" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cv2iYVj" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
   <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
   <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cv2iYVj" class="cv2iYVj"/>  
   <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc6zQ7Nf-iosstatusbar cv2iYVj" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cv2iYVj"> 
@@ -17,7 +17,7 @@
               <div component="$model/UI2/system/components/justep/row/row" class="x-row cv2iYVj" xid="row13" style="height:50%;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cv2iYVj"> 
                 <div class="x-col cv2iYVj" xid="col40" __cid="cv2iYVj"> 
                   <div class="x-col cv2iYVj" xid="div1" style="height:68px;" __cid="cv2iYVj"> 
-                    <span xid="span5" style="width:98px;text-align:center;font-size:xx-large;height:48px;" class="center-block cv2iYVj" __cid="cv2iYVj">5000</span> 
+                    <span xid="span5" style="width:98px;text-align:center;font-size:xx-large;height:48px;" class="center-block cv2iYVj" __cid="cv2iYVj" data-bind="text:$model.user_inf.val(&quot;u_blance&quot;)"/> 
                   </div> 
                 </div> 
               </div> 
@@ -32,7 +32,7 @@
               </div>  
               <div component="$model/UI2/system/components/justep/row/row" class="x-row cv2iYVj" xid="row16" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cv2iYVj"> 
                 <div class="x-col cv2iYVj" xid="col48" __cid="cv2iYVj"> 
-                  <span xid="span9" __cid="cv2iYVj" class="cv2iYVj">5000.00</span> 
+                  <span xid="span9" __cid="cv2iYVj" class="cv2iYVj" data-bind="text:$model.user_inf.val(&quot;u_blance&quot;)"/> 
                 </div> 
               </div> 
             </div>  
@@ -55,24 +55,34 @@
           </div>  
           <div component="$model/UI2/system/components/justep/row/row" class="x-row cv2iYVj" xid="row19" style="height:40%;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cv2iYVj"> 
             <div class="x-col cv2iYVj" xid="col57" __cid="cv2iYVj"> 
-              <div component="$model/UI2/system/components/justep/row/row" class="x-row cv2iYVj" xid="row20" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cv2iYVj"> 
-                <div class="x-col x-col-fixed x-col-center cv2iYVj" xid="col61" style="width:10%;" __cid="cv2iYVj"/>  
-                <div class="x-col cv2iYVj" xid="col62" __cid="cv2iYVj"> 
-                  <span xid="span10" style="font-size:x-large;width:123px;height:37px;" __cid="cv2iYVj" class="cv2iYVj">资金记录</span> 
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cv2iYVj" xid="row20" style="border-top-style:dotted;color:gray;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cv2iYVj"> 
+                <div class="x-col x-col-fixed x-col-center cv2iYVj" xid="col61" style="width:10%;" __cid="cv2iYVj"> 
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-only-icon center-block cv2iYVj" xid="button1" style="font-size:x-large;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-book&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cv2iYVj"> 
+                    <i xid="i3" class="linear linear-book cv2iYVj" __cid="cv2iYVj"/>  
+                    <span xid="span1" __cid="cv2iYVj" class="cv2iYVj"/> 
+                  </a> 
                 </div>  
-                <div class="x-col cv2iYVj" xid="col63" __cid="cv2iYVj"> 
-                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-lg btn-only-icon pull-right cv2iYVj" xid="button5" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-chevronright&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cv2iYVj"> 
+                <div class="x-col cv2iYVj" xid="col62" style="border-bottom-style:dotted;color:gray;" __cid="cv2iYVj"> 
+                  <span xid="span10" style="font-size:x-large;width:123px;height:37px;" __cid="cv2iYVj" class="cv2iYVj">资金记录</span>  
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-sm btn-only-icon pull-right cv2iYVj" xid="button5" style="height:39px;font-size:large;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-chevronright&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cv2iYVj"> 
                     <i xid="i5" class="linear linear-chevronright cv2iYVj" __cid="cv2iYVj"/>  
                     <span xid="span14" __cid="cv2iYVj" class="cv2iYVj"/> 
                   </a> 
                 </div> 
               </div>  
-              <div component="$model/UI2/system/components/justep/row/row" class="x-row cv2iYVj" xid="row21" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cv2iYVj"> 
-                <div class="x-col x-col-fixed x-col-center cv2iYVj" xid="col64" style="background-color:transparent;width:10%;" __cid="cv2iYVj"/>  
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cv2iYVj" xid="row21" style="border-bottom-style:dotted;color:gray;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cv2iYVj"> 
+                <div class="x-col x-col-fixed x-col-center cv2iYVj" xid="col64" style="background-color:transparent;width:10%;" __cid="cv2iYVj"> 
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-only-icon center-block cv2iYVj" xid="button2" style="font-size:x-large;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-cog&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cv2iYVj"> 
+                    <i xid="i4" class="linear linear-cog cv2iYVj" __cid="cv2iYVj"/>  
+                    <span xid="span2" __cid="cv2iYVj" class="cv2iYVj"/> 
+                  </a> 
+                </div>  
                 <div class="x-col cv2iYVj" xid="col65" __cid="cv2iYVj"> 
                   <span xid="span11" style="font-size:x-large;width:123px;height:37px;" __cid="cv2iYVj" class="cv2iYVj">交易密码</span> 
                 </div>  
-                <div class="x-col cv2iYVj" xid="col66" __cid="cv2iYVj"/> 
+                <div class="x-col x-col-fixed x-col-center cv2iYVj" xid="col66" style="width:30%;" __cid="cv2iYVj"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control cv2iYVj" xid="input1" style="text-align:center;width:191px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cv2iYVj"/> 
+                </div> 
               </div> 
             </div> 
           </div> 

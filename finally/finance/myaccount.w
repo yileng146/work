@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window" design="device:m;" xid="window" class="window">  
-  <div component="$UI/system/components/justep/model/model" xid="model" style="top:242px;left:29px;height:auto;"> 
-  </div>  
+  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;top:456px;left:432px;"> 
+  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="user_inf" onCustomRefresh="user_infCustomRefresh" idColumn="u_id"><column name="u_id" type="String" xid="xid1"></column>
+  <column name="u_password" type="String" xid="xid2"></column>
+  <column name="p_id" type="String" xid="xid3"></column>
+  <column name="u_blance" type="Float" xid="xid4"></column>
+  <column name="u_in" type="Float" xid="xid5"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel2">
@@ -17,14 +21,14 @@
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row13" style="height:50%;">
    <div class="x-col" xid="col40">
     
-    <div class="x-col" xid="div1" style="height:68px;"><span xid="span5" style="width:98px;text-align:center;font-size:xx-large;height:48px;" class="center-block"><![CDATA[5000]]></span></div></div> </div></div> </div>
+    <div class="x-col" xid="div1" style="height:68px;"><span xid="span5" style="width:98px;text-align:center;font-size:xx-large;height:48px;" class="center-block" bind-text='$model.user_inf.val("u_blance")'><![CDATA[]]></span></div></div> </div></div> </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row14" style="height:20%;">
    <div class="x-col" xid="col41"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row15">
    <div class="x-col" xid="col45"><![CDATA[]]>
   <span xid="span8"><![CDATA[可用余额]]></span></div>
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row16">
-   <div class="x-col" xid="col48"><span xid="span9"><![CDATA[5000.00]]></span></div>
+   <div class="x-col" xid="col48"><span xid="span9" bind-text='$model.user_inf.val("u_blance")'><![CDATA[]]></span></div>
    </div></div>
    <div class="x-col" xid="col42"></div>
    <div class="x-col" xid="col43">
@@ -38,16 +42,21 @@
    <div class="x-col" xid="col55"></div>
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row19" style="height:40%;">
-   <div class="x-col" xid="col57"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row20">
-   <div class="x-col x-col-fixed x-col-center" xid="col61" style="width:10%;"></div>
-   <div class="x-col" xid="col62"><span xid="span10" style="font-size:x-large;width:123px;height:37px;">资金记录</span></div>
-   <div class="x-col" xid="col63"><a component="$UI/system/components/justep/button/button" class="btn btn-lg btn-only-icon pull-right" label="button" xid="button5" icon="linear linear-chevronright">
+   <div class="x-col" xid="col57"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row20" style="border-top-style:dotted;color:gray;">
+   <div class="x-col x-col-fixed x-col-center" xid="col61" style="width:10%;"><a component="$UI/system/components/justep/button/button" class="btn btn-only-icon center-block" label="button" xid="button1" icon="linear linear-book" style="font-size:x-large;">
+   <i xid="i3" class="linear linear-book"></i>
+   <span xid="span1"></span></a></div>
+   <div class="x-col" xid="col62" style="border-bottom-style:dotted;color:gray;"><span xid="span10" style="font-size:x-large;width:123px;height:37px;">资金记录</span>
+  <a component="$UI/system/components/justep/button/button" class="btn btn-sm btn-only-icon pull-right" label="button" xid="button5" icon="linear linear-chevronright" style="height:39px;font-size:large;">
    <i xid="i5" class="linear linear-chevronright"></i>
-   <span xid="span14"></span></a></div></div>
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row21">
-   <div class="x-col x-col-fixed x-col-center" xid="col64" style="background-color:transparent;width:10%;"></div>
+   <span xid="span14"></span></a></div>
+   </div>
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row21" style="border-bottom-style:dotted;color:gray;">
+   <div class="x-col x-col-fixed x-col-center" xid="col64" style="background-color:transparent;width:10%;"><a component="$UI/system/components/justep/button/button" class="btn btn-only-icon center-block" label="button" xid="button2" icon="linear linear-cog" style="font-size:x-large;">
+   <i xid="i4" class="linear linear-cog"></i>
+   <span xid="span2"></span></a></div>
    <div class="x-col" xid="col65"><span xid="span11" style="font-size:x-large;width:123px;height:37px;"><![CDATA[交易密码]]></span></div>
-   <div class="x-col" xid="col66"></div></div></div>
+   <div class="x-col x-col-fixed x-col-center" xid="col66" style="width:30%;"><input component="$UI/system/components/justep/input/input" class="form-control" xid="input1" style="text-align:center;width:191px;"></input></div></div></div>
    </div></div> 
    <div class="x-panel-bottom" xid="bottom1"></div></div></div>
   </div> 

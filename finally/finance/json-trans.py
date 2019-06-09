@@ -4,11 +4,11 @@ import os
 
 # 定义查询SQL语句
 os.getcwd()
-sql = "SELECT * FROM finally.p_table;"
+sql = "SELECT * FROM finally.user_information;"
 
 # 设置列的别名或者直接用表字段名:（下面的sql含有别名）
 
-# sql="SELECT s.id AS 1_id,s.name AS 2_na,s.local AS 3_lo,s.mobile AS 4_mo,s.CreateTime AS 5_ct FROM db1.s1 s;"
+
 
 
 # 定义连接MySQL的登录信息（此处以字典形式）
@@ -37,7 +37,7 @@ with open(r'd:\1\python\json.txt','w+') as f:    # 打开输出结果文件
         result[column_list[1]] = str(row[1])            # Python字段格式 和json字段格式转换
         result[column_list[2]] = str(row[2]) 
         result[column_list[3]] = str(row[3])
-        #result[column_list[4]] = str(row[4])
+        result[column_list[4]] = str(row[4])
         jsondata=json.dumps(result,ensure_ascii=False) # Python的dict --转换成----> json的object
         f.write(jsondata + '\n')                        # 写入文件
 f.close()         

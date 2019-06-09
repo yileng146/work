@@ -6,5 +6,13 @@ define(function(require){
 		this.callParent();
 	};
 
+	Model.prototype.user_infCustomRefresh = function(event){
+		var url = require.toUrl("./json/user_information.json");
+		$.ajaxSettings.async = false;
+		$.getJSON(url, function(data) {
+			event.source.loadData(data);
+		});
+	};
+
 	return Model;
 });
