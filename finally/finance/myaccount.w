@@ -35,7 +35,7 @@
   <a component="$UI/system/components/justep/button/button" class="btn x-gray btn-lg pull-right center-block" label="提现" xid="deposit_btn" style="font-size:large;width:98px;">
    <i xid="i1"></i>
    <span xid="span6">提现</span></a></div>
-  <div class="x-col" xid="col53"><a component="$UI/system/components/justep/button/button" class="btn x-purple btn-lg pull-right center-block" label="充值" xid="recharge" style="font-size:large;width:98px;">
+  <div class="x-col" xid="col53"><a component="$UI/system/components/justep/button/button" class="btn x-orange btn-lg pull-right center-block" label="充值" xid="recharge" style="font-size:large;width:98px;">
    <i xid="i2"></i>
    <span xid="span7">充值</span></a></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row18">
@@ -43,8 +43,8 @@
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row19" style="height:40%;">
    <div class="x-col" xid="col57"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row20" style="border-top-style:dotted;color:gray;">
-   <div class="x-col x-col-fixed x-col-center" xid="col61" style="width:10%;"><a component="$UI/system/components/justep/button/button" class="btn btn-only-icon center-block" label="button" xid="button1" icon="linear linear-book" style="font-size:x-large;">
-   <i xid="i3" class="linear linear-book"></i>
+   <div class="x-col x-col-fixed x-col-center" xid="col61" style="width:10%;"><a component="$UI/system/components/justep/button/button" class="btn btn-only-icon center-block" label="button" xid="button1" icon="linear linear-calendarfull" style="font-size:x-large;">
+   <i xid="i3" class="linear linear-calendarfull"></i>
    <span xid="span1"></span></a></div>
    <div class="x-col" xid="col62" style="border-bottom-style:dotted;color:gray;"><span xid="span10" style="font-size:x-large;width:123px;height:37px;">资金记录</span>
   <a component="$UI/system/components/justep/button/button" class="btn btn-sm btn-only-icon pull-right" label="button" xid="button5" icon="linear linear-chevronright" style="height:39px;font-size:large;">
@@ -52,8 +52,8 @@
    <span xid="span14"></span></a></div>
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row21" style="border-bottom-style:dotted;color:gray;">
-   <div class="x-col x-col-fixed x-col-center" xid="col64" style="background-color:transparent;width:10%;"><a component="$UI/system/components/justep/button/button" class="btn btn-only-icon center-block" label="button" xid="button2" icon="linear linear-cog" style="font-size:x-large;">
-   <i xid="i4" class="linear linear-cog"></i>
+   <div class="x-col x-col-fixed x-col-center" xid="col64" style="background-color:transparent;width:10%;"><a component="$UI/system/components/justep/button/button" class="btn btn-only-icon center-block" label="button" xid="button2" icon="linear linear-users" style="font-size:x-large;">
+   <i xid="i4" class="linear linear-users"></i>
    <span xid="span2"></span></a></div>
    <div class="x-col" xid="col65"><span xid="span11" style="font-size:x-large;width:123px;height:37px;"><![CDATA[交易密码]]></span></div>
    <div class="x-col x-col-fixed x-col-center" xid="col66" style="width:30%;"><input component="$UI/system/components/justep/input/input" class="form-control" xid="input1" style="text-align:center;width:191px;"></input></div></div></div>

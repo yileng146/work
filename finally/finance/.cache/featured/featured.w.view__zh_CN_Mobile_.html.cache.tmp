@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cz2eUVb" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cz2eUVb" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cz2eUVb" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cz2eUVb" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
   <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
   <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cz2eUVb" class="cz2eUVb"/>  
   <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcFRjEJr-iosstatusbar cz2eUVb" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cz2eUVb"> 
@@ -18,7 +18,63 @@
         </div> 
       </div> 
     </div>  
-    <div class="x-panel-content cz2eUVb" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cz2eUVb"/>  
+    <div class="x-panel-content cz2eUVb" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cz2eUVb"> 
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cz2eUVb" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cz2eUVb"> 
+        <div class="x-contents-content active cz2eUVb" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cz2eUVb"> 
+          <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcZZNvQz-iosstatusbar cz2eUVb" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cz2eUVb"> 
+            <div class="x-panel-top cz2eUVb" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cz2eUVb"/>  
+            <div class="x-panel-content cz2eUVb" xid="content6" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cz2eUVb"> 
+              <div component="$model/UI2/system/components/justep/list/list" class="x-list cz2eUVb" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;finance1&quot;}" __cid="cz2eUVb"> 
+                <ul class="x-list-template hide cz2eUVb" xid="listTemplateUl1" __cid="cz2eUVb" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+                  <li xid="li1" __cid="cz2eUVb" class="cz2eUVb"> 
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row19" style="border-bottom-style:dotted;border-bottom-width:thin;border-bottom-color:red;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
+                      <div class="x-col x-col-fixed x-col-center center-block cz2eUVb" xid="col69" style="width:10%;font-size:larger;" __cid="cz2eUVb">产品号：</div>  
+                      <div class="x-col x-col-fixed x-col-center cz2eUVb" xid="col71" style="width:60%;" __cid="cz2eUVb"> 
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row21" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
+                          <div class="x-col x-col-fixed x-col-center cz2eUVb" xid="col79" style="background-color:transparent;width:50%;" __cid="cz2eUVb"> 
+                            <span xid="span16" style="color:#0000A0;font-size:large;" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:$model.finance1.val(&quot;p_id&quot;)+&quot;号&quot;"/> 
+                          </div> 
+                        </div> 
+                      </div>  
+                      <div class="x-col x-col-center center-block cz2eUVb" xid="col75" style="font-size:larger;" __cid="cz2eUVb">预期收益：</div>  
+                      <div class="x-col cz2eUVb" xid="col76" __cid="cz2eUVb"> 
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row22" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
+                          <div class="x-col cz2eUVb" xid="col82" style="color:#FF8000;" __cid="cz2eUVb"> 
+                            <span xid="span17" style="font-size:large;" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:$model.finance1.val(&quot;p_yuqishouyi&quot;)+&quot;%&quot;"/> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row20" style="border-bottom-color:#00FFFF;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
+                      <div class="x-col x-col-fixed x-col-center center-block cz2eUVb" xid="col72" style="width:10%;" __cid="cz2eUVb">项目期限：</div>  
+                      <div class="x-col x-col-fixed x-col-center cz2eUVb" xid="col74" style="width:60%;" __cid="cz2eUVb"> 
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row24" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
+                          <div class="x-col x-col-fixed x-col-center cz2eUVb" xid="col88" style="width:50%;" __cid="cz2eUVb"> 
+                            <span xid="span20" style="color:#804000;" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:$model.finance1.val(&quot;p_qixian&quot;)+&quot;天&quot;"/> 
+                          </div> 
+                        </div> 
+                      </div>  
+                      <div class="x-col x-col-center center-block cz2eUVb" xid="col77" __cid="cz2eUVb">融资规模：</div>  
+                      <div class="x-col cz2eUVb" xid="col78" __cid="cz2eUVb"> 
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row23" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
+                          <div class="x-col cz2eUVb" xid="col85" __cid="cz2eUVb"> 
+                            <span xid="span21" style="color:#8000FF;" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:$model.finance1.val(&quot;p_rongziguimo&quot;)+&quot;万&quot;"/> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
+                      <div class="x-col cz2eUVb" xid="col1" __cid="cz2eUVb"/> 
+                    </div> 
+                  </li> 
+                </ul> 
+              </div> 
+            </div>  
+            <style __cid="cz2eUVb" class="cz2eUVb">.x-panel.pcZZNvQz-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcZZNvQz-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcZZNvQz-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcZZNvQz-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcZZNvQz-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcZZNvQz-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcZZNvQz-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcZZNvQz-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcZZNvQz-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+          </div> 
+        </div> 
+      </div> 
+    </div>  
     <style __cid="cz2eUVb" class="cz2eUVb">.x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
   </div> 
 </div>
