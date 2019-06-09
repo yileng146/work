@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cfi2u6v" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cfi2u6v" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cfi2u6v" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cfi2u6v" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
   <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cfi2u6v" class="cfi2u6v"></div>  
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcfmYryu-iosstatusbar cfi2u6v" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cfi2u6v"> 
@@ -18,7 +18,95 @@
         </div> 
       </div> 
     </div>  
-    <div class="x-panel-content cfi2u6v" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cfi2u6v"/>  
+    <div class="x-panel-content cfi2u6v" xid="content1" _xid="C87A5F0DFA2000016BB48EF81BA0A350" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cfi2u6v">
+      <div class="x-scroll cfi2u6v" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cfi2u6v"> 
+        <div class="x-content-center x-pull-down container cfi2u6v" xid="div1" __cid="cfi2u6v"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cfi2u6v" xid="i1" __cid="cfi2u6v"/>  
+          <span class="x-pull-down-label cfi2u6v" xid="span1" __cid="cfi2u6v">下拉刷新...</span>
+        </div>  
+        <div class="x-scroll-content cfi2u6v" xid="div2" __cid="cfi2u6v"> 
+          <p style="text-align: center;" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:36px;" __cid="cfi2u6v" class="cfi2u6v">杂货店的程序猿</span>
+          </p>  
+          <p style="text-align: center;" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size: 28px;" __cid="cfi2u6v" class="cfi2u6v">-----------</span>
+          </p>  
+          <p __cid="cfi2u6v" class="cfi2u6v"></p>  
+          <p __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:20px;" __cid="cfi2u6v" class="cfi2u6v">
+              <span style="color: rgb(0, 0, 0);" __cid="cfi2u6v" class="cfi2u6v">致力于开发各种应用，这是一个理财app</span>
+            </span>
+          </p>  
+          <p align="left" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:20px;" __cid="cfi2u6v" class="cfi2u6v">
+              <span style="color: rgb(0, 0, 0);" __cid="cfi2u6v" class="cfi2u6v">致力于开发各种应用，这是一个理财app</span>
+            </span>
+          </p>  
+          <p align="left" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:20px;" __cid="cfi2u6v" class="cfi2u6v">
+              <span style="color: rgb(0, 0, 0);" __cid="cfi2u6v" class="cfi2u6v">致力于开发各种应用，这是一个理财app</span>
+            </span>
+          </p>  
+          <p align="left" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:20px;" __cid="cfi2u6v" class="cfi2u6v">
+              <span style="color: rgb(0, 0, 0);" __cid="cfi2u6v" class="cfi2u6v">致力于开发各种应用，这是一个理财app</span>
+            </span>
+          </p>  
+          <p align="left" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:20px;" __cid="cfi2u6v" class="cfi2u6v">
+              <span style="color: rgb(0, 0, 0);" __cid="cfi2u6v" class="cfi2u6v">致力于开发各种应用，这是一个理财app</span>
+            </span>
+          </p>  
+          <hr __cid="cfi2u6v" class="cfi2u6v"/>  
+          <p align="left" __cid="cfi2u6v" class="cfi2u6v"></p>  
+          <div helvetica="" neue="" style="box-sizing: border-box; font-family:" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:18px;" __cid="cfi2u6v" class="cfi2u6v">
+              <span style="box-sizing: border-box;" __cid="cfi2u6v" class="cfi2u6v">联系方式</span>
+            </span>
+          </div>  
+          <p helvetica="" neue="" style="box-sizing: border-box; margin: 0px 0px 10px; line-height: 22px; font-family:" __cid="cfi2u6v" class="cfi2u6v"></p>  
+          <p helvetica="" neue="" style="box-sizing: border-box; margin: 0px 0px 10px; line-height: 22px; font-family:" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:18px;" __cid="cfi2u6v" class="cfi2u6v">
+              <span style="box-sizing: border-box;" __cid="cfi2u6v" class="cfi2u6v">协和学院</span>
+            </span>
+          </p>  
+          <p style="box-sizing: border-box; margin: 0px 0px 10px; line-height: 22px;" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:18px;" __cid="cfi2u6v" class="cfi2u6v">
+              <span helvetica="" neue="" __cid="cfi2u6v" class="cfi2u6v">
+                <span style="box-sizing: border-box;" __cid="cfi2u6v" class="cfi2u6v">地址：协和学院</span>
+              </span>
+            </span>
+          </p>  
+          <p helvetica="" neue="" style="box-sizing: border-box; margin: 0px 0px 10px; line-height: 22px; font-family:" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:18px;" __cid="cfi2u6v" class="cfi2u6v">
+              <span style="box-sizing: border-box;" __cid="cfi2u6v" class="cfi2u6v">邮编：350000</span>
+            </span>
+          </p>  
+          <p helvetica="" neue="" style="box-sizing: border-box; margin: 0px 0px 10px; line-height: 22px; font-family:" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:18px;" __cid="cfi2u6v" class="cfi2u6v">
+              <span style="box-sizing: border-box;" __cid="cfi2u6v" class="cfi2u6v">电话：0591-xxxx</span>
+            </span>
+          </p>  
+          <p helvetica="" neue="" style="box-sizing: border-box; margin: 0px 0px 10px; line-height: 22px; font-family:" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size:18px;" __cid="cfi2u6v" class="cfi2u6v">
+              <span style="box-sizing: border-box;" __cid="cfi2u6v" class="cfi2u6v">邮箱：xxxxx@com</span>
+            </span>
+          </p>  
+          <p align="left" __cid="cfi2u6v" class="cfi2u6v"></p>  
+          <p align="left" __cid="cfi2u6v" class="cfi2u6v">
+            <span style="font-size: 18px;" __cid="cfi2u6v" class="cfi2u6v">QQ号二维码：</span>
+          </p>  
+          <p align="left" __cid="cfi2u6v" class="cfi2u6v">
+            <img alt="" src="$model/UI2/finally/finance/img/erweima.jpg" style="width:151px;height:156px;" __cid="cfi2u6v" class="cfi2u6v"/> 
+          </p>  
+          <p align="left" __cid="cfi2u6v" class="cfi2u6v"></p>  
+          <hr __cid="cfi2u6v" class="cfi2u6v"/> 
+        </div>  
+        <div class="x-content-center x-pull-up cfi2u6v" xid="div3" __cid="cfi2u6v"> 
+          <span class="x-pull-up-label cfi2u6v" xid="span2" __cid="cfi2u6v">加载更多...</span>
+        </div> 
+      </div>
+    </div>  
     <style __cid="cfi2u6v" class="cfi2u6v">.x-panel.pcfmYryu-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcfmYryu-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcfmYryu-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcfmYryu-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcfmYryu-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcfmYryu-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcfmYryu-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcfmYryu-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcfmYryu-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
   </div> 
 </div>
