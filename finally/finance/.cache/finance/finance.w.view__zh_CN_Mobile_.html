@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cVbUnQf" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cVbUnQf" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+<div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cVbUnQf" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cVbUnQf" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
   <style>null</style>  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cVbUnQf" class="cVbUnQf"></div>  
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcyM7vUb-iosstatusbar cVbUnQf" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cVbUnQf"> 
@@ -17,67 +17,30 @@
         </div> 
       </div> 
     </div>  
-    <div class="x-panel-content cVbUnQf" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cVbUnQf">
-      <div component="$model/UI2/system/components/justep/list/list" class="x-list cVbUnQf" xid="list9" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;finance_products&#34;}" __cid="cVbUnQf"> 
-        <ul class="x-list-template hide cVbUnQf" xid="listTemplateUl7" __cid="cVbUnQf" data-bind="foreach:{data:$model.foreach_list9($element),afterRender:$model.foreach_afterRender_list9.bind($model,$element)}"> 
-          <li xid="li7" __cid="cVbUnQf" class="cVbUnQf">
-            <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row31" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
-              <div class="x-col cVbUnQf" xid="col105" __cid="cVbUnQf">
-                <span xid="span2" __cid="cVbUnQf" class="cVbUnQf" data-bind="text:$model.finance_products.val(&#34;p_id&#34;)"></span>
-              </div>  
-              <div class="x-col cVbUnQf" xid="col107" __cid="cVbUnQf">
-                <span xid="span3" __cid="cVbUnQf" class="cVbUnQf" data-bind="text:$model.finance_products.val(&#34;p_time&#34;)"></span>
-              </div> 
-            </div>  
-            <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
-              <div class="x-col cVbUnQf" xid="col2" __cid="cVbUnQf">
-                <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
-                  <div class="x-col cVbUnQf" xid="col14" __cid="cVbUnQf">
-                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cVbUnQf" xid="output9" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cVbUnQf"></div>
+    <div class="x-panel-content  x-scroll-view cVbUnQf" xid="content1" _xid="C87A3AC469F000011DD418A71AF952C0" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cVbUnQf"> 
+      <div class="x-scroll cVbUnQf" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cVbUnQf"> 
+        <div class="x-content-center x-pull-down container cVbUnQf" xid="div1" __cid="cVbUnQf"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cVbUnQf" xid="i1" __cid="cVbUnQf"></i>  
+          <span class="x-pull-down-label cVbUnQf" xid="span1" __cid="cVbUnQf">下拉刷新...</span>
+        </div>  
+        <div class="x-scroll-content cVbUnQf" xid="div2" __cid="cVbUnQf"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cVbUnQf" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;finance_products&#34;}" __cid="cVbUnQf"> 
+            <ul class="x-list-template hide cVbUnQf" xid="listTemplateUl1" __cid="cVbUnQf" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+              <li xid="li1" __cid="cVbUnQf" class="cVbUnQf"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
+                  <div class="x-col cVbUnQf" xid="col1" __cid="cVbUnQf">
+                    <span xid="span7" __cid="cVbUnQf" class="cVbUnQf" data-bind="text:val(&#34;p_yuqishouyi&#34;)"></span>
                   </div>  
-                  <div class="x-col cVbUnQf" xid="col57" __cid="cVbUnQf">%</div>
-                </div>  
-                <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
-                  <div class="x-col cVbUnQf" xid="col21" __cid="cVbUnQf">预期收益率</div> 
+                  <div class="x-col cVbUnQf" xid="col2" __cid="cVbUnQf"></div>  
+                  <div class="x-col cVbUnQf" xid="col3" __cid="cVbUnQf"></div>
                 </div>
-              </div>  
-              <div class="x-col cVbUnQf" xid="col3" __cid="cVbUnQf">
-                <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
-                  <div class="x-col cVbUnQf" xid="col24" __cid="cVbUnQf">
-                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cVbUnQf" xid="output10" data-bind="component:{ref:$model.data1.ref(&#34;fLimit&#34;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cVbUnQf"></div>
-                  </div>  
-                  <div class="x-col cVbUnQf" xid="col52" __cid="cVbUnQf">天</div>
-                </div>  
-                <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row9" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
-                  <div class="x-col cVbUnQf" xid="col30" __cid="cVbUnQf">项目期限</div> 
-                </div>
-              </div>  
-              <div class="x-col cVbUnQf" xid="col37" __cid="cVbUnQf">
-                <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row10" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
-                  <div class="x-col cVbUnQf" xid="col38" __cid="cVbUnQf">
-                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cVbUnQf" xid="output11" data-bind="component:{ref:$model.data1.ref(&#34;fMoney&#34;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cVbUnQf"></div>
-                  </div>  
-                  <div class="x-col cVbUnQf" xid="col53" __cid="cVbUnQf">万</div>
-                </div>  
-                <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row11" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
-                  <div class="x-col cVbUnQf" xid="col42" __cid="cVbUnQf">融资规模</div>
-                </div>
-              </div>
-              <div class="x-col x-col-20 x-col-center pull-right cVbUnQf" xid="col4" __cid="cVbUnQf">
-                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cVbUnQf" xid="button1" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;label&#34;:&#34;抢购&#34;}" __cid="cVbUnQf"> 
-                  <i xid="i1" __cid="cVbUnQf" class="cVbUnQf"></i>  
-                  <span xid="span1" __cid="cVbUnQf" class="cVbUnQf">抢购</span>
-                </a>
-              </div> 
-            </div>  
-            <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row12" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
-              <div class="x-col center-block cVbUnQf" xid="col46" __cid="cVbUnQf">
-                <div component="$model/UI2/system/components/justep/output/output" class="x-output cVbUnQf" xid="output12" data-bind="component:{ref:$model.data1.ref(&#34;fNumber&#34;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cVbUnQf"></div>
-              </div>  
-              <div class="x-col x-col-90 cVbUnQf" xid="col62" __cid="cVbUnQf">人已购买</div>
-            </div>
-          </li>
-        </ul>
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cVbUnQf" xid="div3" __cid="cVbUnQf"> 
+          <span class="x-pull-up-label cVbUnQf" xid="span2" __cid="cVbUnQf">加载更多...</span>
+        </div> 
       </div>
     </div>  
     <style __cid="cVbUnQf" class="cVbUnQf">.x-panel.pcyM7vUb-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pcyM7vUb-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcyM7vUb-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcyM7vUb-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyM7vUb-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcyM7vUb-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyM7vUb-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyM7vUb-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyM7vUb-iosstatusbar >.x-panel-content {top: 48px;}</style>
