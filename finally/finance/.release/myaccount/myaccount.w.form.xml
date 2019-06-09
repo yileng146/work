@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cyA7z2y" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyA7z2y" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cv2iYVj" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cv2iYVj" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
   <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
-  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cyA7z2y" class="cyA7z2y"></div>  
-  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc7fQNza-iosstatusbar cyA7z2y" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyA7z2y"> 
-    <div class="x-panel-top cyA7z2y" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyA7z2y"> 
-      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyA7z2y" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的账户&quot;}" __cid="cyA7z2y"> 
-        <div class="x-titlebar-left cyA7z2y" __cid="cyA7z2y"> 
-          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cyA7z2y" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cyA7z2y"> 
-            <i class="icon-chevron-left cyA7z2y" __cid="cyA7z2y"/>  
-            <span __cid="cyA7z2y" class="cyA7z2y"/> 
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cv2iYVj" class="cv2iYVj"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc6zQ7Nf-iosstatusbar cv2iYVj" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cv2iYVj"> 
+    <div class="x-panel-top cv2iYVj" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cv2iYVj"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cv2iYVj" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的账户&quot;}" __cid="cv2iYVj"> 
+        <div class="x-titlebar-left cv2iYVj" __cid="cv2iYVj"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cv2iYVj" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cv2iYVj"> 
+            <i class="icon-chevron-left cv2iYVj" __cid="cv2iYVj"/>  
+            <span __cid="cv2iYVj" class="cv2iYVj"/> 
           </a> 
         </div>  
-        <div class="x-titlebar-title cyA7z2y" __cid="cyA7z2y">我的账户</div>  
-        <div class="x-titlebar-right  cyA7z2y" __cid="cyA7z2y">
-          <div class="empty cyA7z2y" __cid="cyA7z2y"/>
+        <div class="x-titlebar-title cv2iYVj" __cid="cv2iYVj">我的账户</div>  
+        <div class="x-titlebar-right  cv2iYVj" __cid="cv2iYVj">
+          <div class="empty cv2iYVj" __cid="cv2iYVj"/>
         </div> 
       </div> 
     </div>  
-    <div class="x-panel-content cyA7z2y" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyA7z2y"/>  
-    <style __cid="cyA7z2y" class="cyA7z2y">.x-panel.pc7fQNza-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pc7fQNza-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pc7fQNza-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc7fQNza-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc7fQNza-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pc7fQNza-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc7fQNza-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc7fQNza-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc7fQNza-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+    <div class="x-panel-content cv2iYVj" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cv2iYVj"/>  
+    <style __cid="cv2iYVj" class="cv2iYVj">.x-panel.pc6zQ7Nf-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pc6zQ7Nf-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pc6zQ7Nf-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc6zQ7Nf-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc6zQ7Nf-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pc6zQ7Nf-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc6zQ7Nf-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc6zQ7Nf-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc6zQ7Nf-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
   </div> 
 </div>

@@ -7,14 +7,14 @@ require('$model/UI2/system/components/justep/panel/child');
 require('$model/UI2/system/components/justep/window/window');
 require('$model/UI2/system/components/justep/panel/panel');
 var __parent1=require('$model/UI2/system/lib/base/modelBase'); 
-var __parent0=require('$model/UI2/finance/finance'); 
+var __parent0=require('$model/UI2/finally/finance/finance'); 
 var __result = __parent1._extend(__parent0).extend({
 	constructor:function(contextUrl){
 	this.__sysParam='true';
 	this.__contextUrl=contextUrl;
 	this.__id='';
-	this.__cid='ca2yERb';
-	this._flag_='3805c7be91b7fd50b132e98421598ef9';
+	this.__cid='cVbUnQf';
+	this._flag_='9d3eea7fd7d121b0646e6032f4b44a46';
 	this._wCfg_={};
 	this._appCfg_={};
 	this.callParent(contextUrl);

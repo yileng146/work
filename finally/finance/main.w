@@ -6,10 +6,10 @@
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-content" xid="content1">
   <div component="$UI/system/components/justep/contents/contents" class="x-contents x-full" active="0" xid="contents2">
-   <div class="x-contents-content" xid="feature"><div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="windowContainer1" src="$UI/finance/featured.w"></div></div>
-   <div class="x-contents-content" xid="finance"><div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="windowContainer2" src="$UI/finance/finance.w"></div></div>
-   <div class="x-contents-content" xid="myaccount"><div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="windowContainer3" src="$UI/finance/myaccount.w"></div></div>
-   <div class="x-contents-content" xid="aboutus"><div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="windowContainer4" src="$UI/finance/aboutus.w"></div></div>
+   <div class="x-contents-content" xid="feature"><div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="windowContainer1" src="$UI/finally/finance/featured.w"></div></div>
+   <div class="x-contents-content" xid="finance"><div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="windowContainer2" src="$UI/finally/finance/finance.w"></div></div>
+   <div class="x-contents-content" xid="myaccount"><div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="windowContainer3" src="$UI/finally/finance/myaccount.w"></div></div>
+   <div class="x-contents-content" xid="aboutus"><div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="windowContainer4" src="$UI/finally/finance/aboutus.w"></div></div>
    
    </div></div> 
 <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel3">
