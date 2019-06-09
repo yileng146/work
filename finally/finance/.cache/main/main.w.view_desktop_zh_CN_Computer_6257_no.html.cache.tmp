@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cBfmmYv" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cBfmmYv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cBfmmYv" class="cBfmmYv"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcQvmmu2-iosstatusbar cBfmmYv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cBfmmYv"> 
+    <div class="x-panel-content cBfmmYv" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cBfmmYv"> 
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcbErM7n-iosstatusbar cBfmmYv" xid="panel3" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cBfmmYv"> 
+        <div class="x-panel-content cBfmmYv" xid="content3" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cBfmmYv"/>  
+        <div class="x-panel-bottom cBfmmYv" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cBfmmYv"> 
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cBfmmYv" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cBfmmYv"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cBfmmYv" xid="featured_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-star&quot;,&quot;label&quot;:&quot;首页推荐&quot;}" __cid="cBfmmYv"> 
+              <i xid="i1" class="icon-android-star cBfmmYv" __cid="cBfmmYv"/>  
+              <span xid="span1" __cid="cBfmmYv" class="cBfmmYv">首页推荐</span> 
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cBfmmYv" xid="finance_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-storage&quot;,&quot;label&quot;:&quot;理财产品&quot;}" __cid="cBfmmYv"> 
+              <i xid="i4" class="icon-android-storage cBfmmYv" __cid="cBfmmYv"/>  
+              <span xid="span4" __cid="cBfmmYv" class="cBfmmYv">理财产品</span> 
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cBfmmYv" xid="myaccount_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-social-user&quot;,&quot;label&quot;:&quot;我的账户&quot;}" __cid="cBfmmYv"> 
+              <i xid="i3" class="icon-android-social-user cBfmmYv" __cid="cBfmmYv"/>  
+              <span xid="span3" __cid="cBfmmYv" class="cBfmmYv">我的账户</span> 
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cBfmmYv" xid="aboutus_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-help&quot;,&quot;label&quot;:&quot;关于我们&quot;}" __cid="cBfmmYv"> 
+              <i xid="i2" class="icon-ios7-help cBfmmYv" __cid="cBfmmYv"/>  
+              <span xid="span2" __cid="cBfmmYv" class="cBfmmYv">关于我们</span> 
+            </a> 
+          </div> 
+        </div>  
+        <style __cid="cBfmmYv" class="cBfmmYv">.x-panel.pcbErM7n-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcbErM7n-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcbErM7n-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcbErM7n-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcbErM7n-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcbErM7n-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcbErM7n-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcbErM7n-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcbErM7n-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+      </div> 
+    </div>  
+    <style __cid="cBfmmYv" class="cBfmmYv">.x-panel.pcQvmmu2-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcQvmmu2-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcQvmmu2-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcQvmmu2-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcQvmmu2-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcQvmmu2-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcQvmmu2-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcQvmmu2-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcQvmmu2-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+  </div> 
+</div>
