@@ -1,13 +1,13 @@
 [
 {"p_id": "1", "p_yuqishouyi": "4.8", "p_qixian": "50", "p_rongziguimo": "70.0", "p_time": "2019-06-05", "p_salenum": "34"},
-{"p_id": "2", "p_yuqishouyi": "4.8", "p_qixian": "60", "p_rongziguimo": "80.0", "p_time": "2019-06-25", "p_salenum": "12"},
+{"p_id": "2", "p_yuqishouyi": "4.8", "p_qixian": "60", "p_rongziguimo": "80.0", "p_time": "2019-06-25", "p_salenum": "0"},
 {"p_id": "3", "p_yuqishouyi": "4.2", "p_qixian": "10", "p_rongziguimo": "50.0", "p_time": "2019-04-10", "p_salenum": "66"},
-{"p_id": "4", "p_yuqishouyi": "3.5", "p_qixian": "10", "p_rongziguimo": "40.0", "p_time": "2019-06-24", "p_salenum": "23"},
+{"p_id": "4", "p_yuqishouyi": "3.5", "p_qixian": "10", "p_rongziguimo": "40.0", "p_time": "2019-06-24", "p_salenum": "0"},
 {"p_id": "5", "p_yuqishouyi": "5.8", "p_qixian": "90", "p_rongziguimo": "100.0", "p_time": "2019-05-07", "p_salenum": "44"},
-{"p_id": "6", "p_yuqishouyi": "6.8", "p_qixian": "180", "p_rongziguimo": "200.0", "p_time": "2019-07-14", "p_salenum": "45"},
+{"p_id": "6", "p_yuqishouyi": "6.8", "p_qixian": "180", "p_rongziguimo": "200.0", "p_time": "2019-07-14", "p_salenum": "0"},
 {"p_id": "7", "p_yuqishouyi": "8.5", "p_qixian": "220", "p_rongziguimo": "300.0", "p_time": "2019-04-16", "p_salenum": "12"},
 {"p_id": "8", "p_yuqishouyi": "7.4", "p_qixian": "180", "p_rongziguimo": "150.0", "p_time": "2019-06-18", "p_salenum": "63"},
-{"p_id": "9", "p_yuqishouyi": "5.5", "p_qixian": "140", "p_rongziguimo": "110.0", "p_time": "2019-05-13", "p_salenum": "12"},
+{"p_id": "9", "p_yuqishouyi": "5.5", "p_qixian": "140", "p_rongziguimo": "110.0", "p_time": "2019-05-13", "p_salenum": "0"},
 {"p_id": "10", "p_yuqishouyi": "4.5", "p_qixian": "110", "p_rongziguimo": "105.0", "p_time": "2019-04-15", "p_salenum": "25"},
-{"p_id": "11", "p_yuqishouyi": "4.5", "p_qixian": "60", "p_rongziguimo": "300.0", "p_time": "2019-04-22", "p_salenum": "25"}
+{"p_id": "11", "p_yuqishouyi": "4.5", "p_qixian": "60", "p_rongziguimo": "300.0", "p_time": "2019-04-22", "p_salenum": "1"}
 ]

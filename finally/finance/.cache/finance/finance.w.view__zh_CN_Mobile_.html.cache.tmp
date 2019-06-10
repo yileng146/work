@@ -43,12 +43,8 @@
                 <span xid="span12" style="font-size:large;color:#8000FF;" __cid="cVbUnQf" class="cVbUnQf" data-bind="text:val(&quot;p_rongziguimo&quot;)"/>  
                 <span xid="span13" style="font-size:x-small;color:#000000;" __cid="cVbUnQf" class="cVbUnQf">万</span> 
               </div>  
-              <div class="x-col x-col-center cVbUnQf" xid="col10" __cid="cVbUnQf" data-bind="visible:val(&quot;fRush&quot;) != val(&quot;fRushray&quot;)"> 
-                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default pull-right cVbUnQf" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'},text:val(&quot;fRush&quot;)" __cid="cVbUnQf"> 
-                  <i xid="i1" __cid="cVbUnQf" class="cVbUnQf"/>  
-                  <span xid="span14" __cid="cVbUnQf" class="cVbUnQf"/> 
-                </a> 
-              </div> 
+              <div class="x-col x-col-center cVbUnQf" xid="col10" __cid="cVbUnQf" data-bind="visible:val(&quot;fRush&quot;) != val(&quot;fRushray&quot;)"/>  
+              <div class="x-col cVbUnQf" xid="col2" __cid="cVbUnQf"/> 
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
               <div class="x-col cVbUnQf" xid="col11" style="border-bottom-style:groove;" __cid="cVbUnQf"> 
@@ -60,16 +56,27 @@
               <div class="x-col cVbUnQf" xid="col13" style="border-bottom-style:groove;" __cid="cVbUnQf"> 
                 <span xid="span7" __cid="cVbUnQf" class="cVbUnQf">融资规模</span> 
               </div>  
-              <div class="x-col cVbUnQf" xid="col14" style="border-bottom-style:groove;" __cid="cVbUnQf"/> 
+              <div class="x-col cVbUnQf" xid="col14" style="border-bottom-style:groove;" __cid="cVbUnQf"> 
+                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default pull-right cVbUnQf" xid="buy_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;购买&quot;}" __cid="cVbUnQf"> 
+                  <i xid="i1" __cid="cVbUnQf" class="cVbUnQf"/>  
+                  <span xid="span2" __cid="cVbUnQf" class="cVbUnQf">购买</span> 
+                </a> 
+              </div>  
+              <div class="x-col cVbUnQf" xid="col4" __cid="cVbUnQf"/> 
             </div>  
-            <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row2" style="border-bottom-style:groove;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 
               <span xid="span15" __cid="cVbUnQf" class="cVbUnQf"> 
                 <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cVbUnQf" xid="button3" style="background-color:#FFFFFF;height:35;width:35;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-contact&quot;}" __cid="cVbUnQf"> 
                   <i xid="i2" class="icon-android-contact cVbUnQf" __cid="cVbUnQf"/>  
                   <span xid="span16" __cid="cVbUnQf" class="cVbUnQf"/> 
                 </a>  
                 <span xid="span17" __cid="cVbUnQf" class="cVbUnQf" data-bind="text:val(&quot;fPurchase&quot;)"/> 
-              </span> 
+              </span>  
+              <div class="x-col cVbUnQf" xid="col5" style="border-bottom-style:groove;" __cid="cVbUnQf"/>  
+              <div class="x-col cVbUnQf" xid="col6" style="border-bottom-style:groove;" __cid="cVbUnQf"/>  
+              <div class="x-col cVbUnQf" xid="col15" style="border-bottom-style:groove;" __cid="cVbUnQf"/>  
+              <div class="x-col cVbUnQf" xid="col16" style="border-bottom-style:groove;" __cid="cVbUnQf"/>  
+              <div class="x-col cVbUnQf" xid="col17" __cid="cVbUnQf"/> 
             </div> 
           </li> 
         </ul> 

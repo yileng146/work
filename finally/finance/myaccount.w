@@ -42,16 +42,16 @@
    <div class="x-col" xid="col55"></div>
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row19" style="height:40%;">
-   <div class="x-col" xid="col57"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row20" style="border-top-style:dotted;color:gray;">
+   <div class="x-col" xid="col57"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row20" style="border-top-style:groove;color:gray;">
    <div class="x-col x-col-fixed x-col-center" xid="col61" style="width:10%;"><a component="$UI/system/components/justep/button/button" class="btn btn-only-icon center-block" label="button" xid="button1" icon="linear linear-calendarfull" style="font-size:x-large;">
    <i xid="i3" class="linear linear-calendarfull"></i>
    <span xid="span1"></span></a></div>
-   <div class="x-col" xid="col62" style="border-bottom-style:dotted;color:gray;"><span xid="span10" style="font-size:x-large;width:123px;height:37px;">资金记录</span>
+   <div class="x-col" xid="col62" style="border-bottom-style:groove;color:gray;"><span xid="span10" style="font-size:x-large;width:123px;height:37px;">资金记录</span>
   <a component="$UI/system/components/justep/button/button" class="btn btn-sm btn-only-icon pull-right" label="button" xid="button5" icon="linear linear-chevronright" style="height:39px;font-size:large;">
    <i xid="i5" class="linear linear-chevronright"></i>
    <span xid="span14"></span></a></div>
    </div>
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row21" style="border-bottom-style:dotted;color:gray;">
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row21" style="border-bottom-style:groove;color:gray;">
    <div class="x-col x-col-fixed x-col-center" xid="col64" style="background-color:transparent;width:10%;"><a component="$UI/system/components/justep/button/button" class="btn btn-only-icon center-block" label="button" xid="button2" icon="linear linear-users" style="font-size:x-large;">
    <i xid="i4" class="linear linear-users"></i>
    <span xid="span2"></span></a></div>

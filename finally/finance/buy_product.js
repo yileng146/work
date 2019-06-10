@@ -6,21 +6,25 @@ define(function(require){
 		this.callParent();
 	};
 
-	Model.prototype.finance_productsCustomRefresh = function(event){
-		var url = require.toUrl("./json/finance_products.json");
+	Model.prototype.productsdataCustomRefresh = function(event){
+		var url = require.toUrl("Json/money.json");
 		$.ajaxSettings.async = false;
 		$.getJSON(url, function(data) {
 			event.source.loadData(data);
 		});
 	};
 
-	Model.prototype.user_infCustomRefresh = function(event){
-		var url = require.toUrl("./json/user_information.json");
+
+
+	Model.prototype.myaccountdataCustomRefresh = function(event){
+		var url = require.toUrl("Json/myaccount.json");
 		$.ajaxSettings.async = false;
 		$.getJSON(url, function(data) {
 			event.source.loadData(data);
 		});
 	};
+
+
 
 	return Model;
 });

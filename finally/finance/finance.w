@@ -35,23 +35,30 @@
   <span xid="span8" style="font-size:x-small;"><![CDATA[%]]></span></div>
    <div class="x-col x-col-center" xid="col8" style="border-right-style:groove;"><span xid="span9" bind-text='val("p_qixian")' style="font-size:large;color:#0000FF;"></span><span xid="span10" style="font-size:x-small;"><![CDATA[天]]></span></div>
    <div class="x-col x-col-center" xid="col9"><span xid="span12" bind-text='val("p_rongziguimo")' style="font-size:large;color:#8000FF;"></span>
-  <span xid="span13" style="font-size:x-small;color:#000000;"><![CDATA[万]]></span></div>
-  <div class="x-col x-col-center" xid="col10" bind-visible=' val("fRush") != val("fRushray")'><a component="$UI/system/components/justep/button/button" class="btn btn-default pull-right" xid="button2" bind-text=' val("fRush")'>
-   <i xid="i1"></i>
-   <span xid="span14"></span></a>
-  </div></div>
+  <span xid="span13" style="font-size:x-small;color:#000000;"><![CDATA[万]]></span>
+  </div>
+  <div class="x-col x-col-center" xid="col10" bind-visible=' val("fRush") != val("fRushray")'></div>
+  <div class="x-col" xid="col2"></div></div>
   
   
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
    <div class="x-col" xid="col11" style="border-bottom-style:groove;"><span xid="span5"><![CDATA[预期收益率]]></span></div>
    <div class="x-col" xid="col12" style="border-bottom-style:groove;"><span xid="span6"><![CDATA[项目期限]]></span></div>
    <div class="x-col" xid="col13" style="border-bottom-style:groove;"><span xid="span7"><![CDATA[融资规模]]></span></div>
-  <div class="x-col" xid="col14" style="border-bottom-style:groove;"></div></div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row2" style="border-bottom-style:groove;">
+  <div class="x-col" xid="col14" style="border-bottom-style:groove;"><a component="$UI/system/components/justep/button/button" class="btn btn-default pull-right" label="购买" xid="buy_btn">
+   <i xid="i1"></i>
+   <span xid="span2">购买</span></a></div>
+  <div class="x-col" xid="col4"></div></div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
    <span xid="span15"><a component="$UI/system/components/justep/button/button" class="btn btn-link btn-only-icon" xid="button3" icon="icon-android-contact" style="background-color:#FFFFFF;height:35;width:35;">
    <i xid="i2" class="icon-android-contact"></i>
    <span xid="span16"></span></a>
   <span xid="span17" bind-text='val("fPurchase")'></span>
-  </span></div></li></ul> </div>
+  </span>
+  <div class="x-col" xid="col5" style="border-bottom-style:groove;"></div>
+  <div class="x-col" xid="col6" style="border-bottom-style:groove;"></div>
+  <div class="x-col" xid="col15" style="border-bottom-style:groove;"></div>
+  <div class="x-col" xid="col16" style="border-bottom-style:groove;"></div>
+  <div class="x-col" xid="col17"></div></div></li></ul> </div>
   </div>
     
   </div> 

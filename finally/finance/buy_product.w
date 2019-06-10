@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window" design="device:m;" xid="window" class="window">  
-  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;top:36px;left:656px;"> 
-  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="finance1" idColumn="p_id" onCustomRefresh="finance_productsCustomRefresh">
-   <column isCalculate="false" name="p_id" type="Integer" xid="xid1"></column>
-  <column name="p_yuqishouyi" type="Float" xid="xid2"></column>
-  <column name="p_qixian" type="Integer" xid="xid3"></column>
-  <column name="p_rongziguimo" type="Integer" xid="xid4"></column>
-  <column name="p_time" type="Date" xid="xid5"></column>
-  <column name="p_salenum" type="Integer" xid="xid6"></column></div>
-  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="user1" onCustomRefresh="user_infCustomRefresh" idColumn="u_id">
-   <column name="u_id" type="String" xid="column1"></column>
-  <column name="u_password" type="String" xid="column2"></column>
-  <column name="p_id" type="String" xid="column3"></column>
-  <column name="u_blance" type="Float" xid="column4"></column>
-  <column name="u_in" type="Float" xid="column5"></column></div></div>  
+  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;top:26px;left:505px;"> 
+  </div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1"> 
@@ -32,44 +20,39 @@
           </div>
         </div> 
       </div>  
-    <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="finance1">
+    <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="productsdata">
    <ul class="x-list-template" xid="listTemplateUl1">
     <li xid="li1"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
-   <div class="x-col" xid="col1"><span xid="span1" bind-text='val("p_id")+"号"'></span>
+   <div class="x-col" xid="col1"><span xid="span1" bind-text='val("m_no")'></span>
   </div>
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
-   <div class="x-col" xid="col4"><span xid="span3" style="font-size:xx-large;" bind-text='val("p_yuqishouyi")+"%"'></span>
-  </div>
-   <div class="x-col" xid="col5"><span xid="span5" style="font-size:xx-large;" bind-text='val("p_qixian")'></span>
-  </div>
+   <div class="x-col" xid="col4"><span xid="span3" style="font-size:xx-large;" bind-text='val("m_return")'></span>
+  <span xid="span4"><![CDATA[%]]></span></div>
+   <div class="x-col" xid="col5"><span xid="span5" style="font-size:xx-large;" bind-text='val("m_pjtime")'></span>
+  <span xid="span6"><![CDATA[天]]></span></div>
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
    <div class="x-col" xid="col7"><span xid="span7"><![CDATA[预期收益率]]></span></div>
    <div class="x-col" xid="col8"><span xid="span8"><![CDATA[项目期限]]></span></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
-   <div class="x-col" xid="col12"><span xid="span9" bind-text='val("p_rongziguimo")+"元"'></span>
-  </div>
+   <div class="x-col" xid="col12"><span xid="span9" bind-text='val("m_money")'></span>
+  <span xid="span11"><![CDATA[万元]]></span></div>
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row6">
    <div class="x-col" xid="col15" style="font-size:small;">
    <span xid="span10">融资规模</span></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
-   <div class="x-col x-col-fixed x-col-center" xid="col2" style="width:10%;"><![CDATA[]]>
-  <span xid="span2"><![CDATA[账户余额：]]></span></div>
-   <div class="x-col" xid="col3"><span xid="span4"></span></div>
+   <div class="x-col x-col-fixed x-col-center" xid="col2" style="width:10%;"><span xid="span13"><![CDATA[账户余额：]]></span></div>
+   <div class="x-col" xid="col3"><span xid="span19"></span></div>
    <div class="x-col" xid="col6"></div></div>
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row9">
-   <div class="x-col" xid="col11"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row12">
-   <div class="x-col" xid="col14"></div>
-   </div></div></div></li>
-  <li xid="li3"></li></ul> </div>
-  </div>
-  <div component="$UI/system/components/justep/list/list" class="x-list" xid="list2" data="$model.user1">
-   <ul class="x-list-template" xid="listTemplateUl2">
-    <li xid="li2"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
+   <div class="x-col" xid="col10"></div>
+   </div>
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row8">
+   <li xid="li2"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
    <div class="x-col" xid="col18">
-    <span xid="span12"><![CDATA[投资金额：]]></span></div> 
+    <span xid="span12">账户余额：</span></div> 
    <div class="x-col x-col-80" xid="col20">
     <input component="$UI/system/components/justep/input/input" class="form-control" xid="input1" bind-ref='$model.myaccountdata.ref("m_balance")'></input></div> 
    <div class="x-col" xid="col21">
@@ -89,12 +72,14 @@
      <i xid="i4" class="icon-eye-disabled"></i>
      <span xid="span18"></span></a> </div> </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row10">
-   <div class="x-col x-col-fixed x-col-center" xid="col28" style="width:10%;"><span xid="span6"><![CDATA[预期收益：]]></span></div>
-  <div class="x-col" xid="col17"><span xid="span11" bind-text='$model.finance1.val("p_yuqishouyi")'></span></div>
-  <div class="x-col" xid="col19"></div></div>
+   <div class="x-col" xid="col28"></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row11">
    <div class="x-col" xid="col31">
     <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="购买" xid="button3" style="width:100%;height:100%;">
      <i xid="i3"></i>
-     <span xid="span17">购买</span></a> </div> </div></li></ul> </div></div> 
+     <span xid="span17">购买</span></a> </div> </div></li>
+   </div></li>
+  </ul> </div>
+  </div>
+  </div> 
 </div>
