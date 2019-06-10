@@ -72,7 +72,9 @@
                 </a>  
                 <span xid="span17" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&quot;fPurchase&quot;)"/> 
               </span>  
-              <div class="x-col cz2eUVb" xid="col5" style="border-bottom-style:groove;" __cid="cz2eUVb"/>  
+              <div class="x-col cz2eUVb" xid="col5" style="border-bottom-style:groove;" __cid="cz2eUVb"> 
+                <span xid="span11" class="center-block cz2eUVb" style="text-align:center;" __cid="cz2eUVb" data-bind="text:&quot;该产品剩余&quot;+val(&quot;p_salenum&quot;)"/> 
+              </div>  
               <div class="x-col cz2eUVb" xid="col6" style="border-bottom-style:groove;" __cid="cz2eUVb"/>  
               <div class="x-col cz2eUVb" xid="col15" style="border-bottom-style:groove;" __cid="cz2eUVb"/>  
               <div class="x-col cz2eUVb" xid="col16" style="border-bottom-style:groove;" __cid="cz2eUVb"/>  

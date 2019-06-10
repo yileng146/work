@@ -54,7 +54,7 @@
    <span xid="span16"></span></a>
   <span xid="span17" bind-text='val("fPurchase")'></span>
   </span>
-  <div class="x-col" xid="col5" style="border-bottom-style:groove;"><span xid="span11"></span></div>
+  <div class="x-col" xid="col5" style="border-bottom-style:groove;"><span xid="span11" bind-text=' "该产品剩余"+val("p_salenum") ' class="center-block" style="text-align:center;"></span></div>
   <div class="x-col" xid="col6" style="border-bottom-style:groove;"></div>
   <div class="x-col" xid="col15" style="border-bottom-style:groove;"></div>
   <div class="x-col" xid="col16" style="border-bottom-style:groove;"></div>

@@ -23,18 +23,15 @@
           <li xid="li1" __cid="czEBfIv" class="czEBfIv"> 
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
               <div class="x-col czEBfIv" xid="col1" __cid="czEBfIv"> 
-                <span xid="span1" __cid="czEBfIv" class="czEBfIv" data-bind="text:val(&quot;m_no&quot;)"/>  
-                <span xid="span2" __cid="czEBfIv" class="czEBfIv">号产品</span> 
+                <span xid="span1" __cid="czEBfIv" class="czEBfIv" data-bind="text:$model.finance1.val(&quot;p_id&quot;)+&quot;号&quot;"/> 
               </div> 
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
               <div class="x-col czEBfIv" xid="col4" __cid="czEBfIv"> 
-                <span xid="span3" style="font-size:xx-large;" __cid="czEBfIv" class="czEBfIv" data-bind="text:val(&quot;m_return&quot;)"/>  
-                <span xid="span4" __cid="czEBfIv" class="czEBfIv">%</span> 
+                <span xid="span3" style="font-size:xx-large;" __cid="czEBfIv" class="czEBfIv" data-bind="text:$model.finance1.val(&quot;p_yuqishouyi&quot;)+&quot;%&quot;"/> 
               </div>  
               <div class="x-col czEBfIv" xid="col5" __cid="czEBfIv"> 
-                <span xid="span5" style="font-size:xx-large;" __cid="czEBfIv" class="czEBfIv" data-bind="text:val(&quot;m_pjtime&quot;)"/>  
-                <span xid="span6" __cid="czEBfIv" class="czEBfIv">天</span> 
+                <span xid="span5" style="font-size:xx-large;" __cid="czEBfIv" class="czEBfIv" data-bind="text:$model.finance1.val(&quot;p_qixian&quot;)+&quot;天&quot;"/> 
               </div> 
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
@@ -47,8 +44,7 @@
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
               <div class="x-col czEBfIv" xid="col12" __cid="czEBfIv"> 
-                <span xid="span9" __cid="czEBfIv" class="czEBfIv" data-bind="text:val(&quot;m_money&quot;)"/>  
-                <span xid="span11" __cid="czEBfIv" class="czEBfIv">万元</span> 
+                <span xid="span9" __cid="czEBfIv" class="czEBfIv" data-bind="text:$model.finance1.val(&quot;p_rongziguimo&quot;)+&quot;元&quot;"/> 
               </div> 
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
@@ -57,22 +53,25 @@
               </div> 
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
-              <div class="x-col czEBfIv" xid="col2" __cid="czEBfIv"/>  
-              <div class="x-col czEBfIv" xid="col3" __cid="czEBfIv"/>  
+              <div class="x-col x-col-fixed x-col-center czEBfIv" xid="col2" style="width:10%;" __cid="czEBfIv"> 
+                <span xid="span13" __cid="czEBfIv" class="czEBfIv">账户余额：</span> 
+              </div>  
+              <div class="x-col czEBfIv" xid="col3" __cid="czEBfIv"> 
+                <span xid="span19" __cid="czEBfIv" class="czEBfIv">5000.00</span> 
+              </div>  
               <div class="x-col czEBfIv" xid="col6" __cid="czEBfIv"/> 
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
               <div class="x-col czEBfIv" xid="col10" __cid="czEBfIv"/> 
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row8" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
-              <div class="x-col czEBfIv" xid="col16" __cid="czEBfIv"/>  
               <li xid="li2" __cid="czEBfIv" class="czEBfIv"> 
                 <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
                   <div class="x-col czEBfIv" xid="col18" __cid="czEBfIv"> 
-                    <span xid="span12" __cid="czEBfIv" class="czEBfIv">账户余额：</span> 
+                    <span xid="span12" __cid="czEBfIv" class="czEBfIv">投资金额：</span> 
                   </div>  
                   <div class="x-col x-col-80 czEBfIv" xid="col20" __cid="czEBfIv"> 
-                    <input component="$model/UI2/system/components/justep/input/input" class="form-control czEBfIv" xid="input1" data-bind="component:{ref:$model.myaccountdata.ref(&quot;m_balance&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="czEBfIv"/> 
+                    <input component="$model/UI2/system/components/justep/input/input" class="form-control czEBfIv" xid="input1" data-bind="component:{ref:&quot;5000&quot;,name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;Float&quot;,&quot;valueUpdateMode&quot;:&quot;input&quot;}" __cid="czEBfIv"/> 
                   </div>  
                   <div class="x-col czEBfIv" xid="col21" __cid="czEBfIv"> 
                     <a component="$model/UI2/system/components/justep/button/button" class="btn czEBfIv" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;全投&quot;}" __cid="czEBfIv"> 
@@ -86,7 +85,7 @@
                     <span xid="span16" __cid="czEBfIv" class="czEBfIv">交易密码：</span> 
                   </div>  
                   <div class="x-col x-col-80 czEBfIv" xid="col24" __cid="czEBfIv"> 
-                    <input component="$model/UI2/system/components/justep/input/input" class="form-control czEBfIv" xid="input2" data-bind="component:{ref:ref(&quot;m_password&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;String&quot;}" __cid="czEBfIv"/> 
+                    <input component="$model/UI2/system/components/justep/input/input" class="form-control czEBfIv" xid="input2" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;String&quot;,&quot;valueUpdateMode&quot;:&quot;input&quot;}" __cid="czEBfIv"/> 
                   </div>  
                   <div class="x-col czEBfIv" xid="col23" __cid="czEBfIv"> 
                     <a component="$model/UI2/system/components/justep/button/button" class="btn btn-only-icon czEBfIv" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-close&quot;,&quot;label&quot;:&quot;delete&quot;}" __cid="czEBfIv"> 
@@ -100,7 +99,13 @@
                   </div> 
                 </div>  
                 <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row10" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
-                  <div class="x-col czEBfIv" xid="col28" __cid="czEBfIv"/> 
+                  <div class="x-col x-col-fixed x-col-center czEBfIv" xid="col28" style="width:10%;" __cid="czEBfIv"> 
+                    <span xid="span20" __cid="czEBfIv" class="czEBfIv">预期收益：</span> 
+                  </div>  
+                  <div class="x-col czEBfIv" xid="col19" __cid="czEBfIv"> 
+                    <span xid="span21" __cid="czEBfIv" class="czEBfIv"/> 
+                  </div>  
+                  <div class="x-col czEBfIv" xid="col25" __cid="czEBfIv"/> 
                 </div>  
                 <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row11" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
                   <div class="x-col czEBfIv" xid="col31" __cid="czEBfIv"> 
