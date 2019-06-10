@@ -30,5 +30,13 @@ define(function(require){
 		});
 	};
 
+	Model.prototype.financeIOClick = function(event){
+		this.comp("windowDialog3").open({
+		"params":{
+		"operator":"new"
+		}
+		});
+	};
+
 	return Model;
 });

@@ -3,6 +3,18 @@
 <div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cv2iYVj" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cv2iYVj" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
   <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
   <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cv2iYVj" class="cv2iYVj"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog3" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/finally/finance/financeIO.w&quot;}" __cid="cv2iYVj" class="cv2iYVj"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cv2iYVj" __cid="cv2iYVj"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cv2iYVj" style="display:none;" __cid="cv2iYVj">  
+      <div class="x-dialog-title cv2iYVj" __cid="cv2iYVj"> 
+        <button class="close cv2iYVj" __cid="cv2iYVj"> 
+          <span __cid="cv2iYVj" class="cv2iYVj">×</span> 
+        </button>  
+        <div class="x-dialog-title-text cv2iYVj" __cid="cv2iYVj"/> 
+      </div>  
+      <div class="x-dialog-body cv2iYVj" __cid="cv2iYVj"/> 
+    </div> 
+  </span>  
   <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc6zQ7Nf-iosstatusbar cv2iYVj" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cv2iYVj"> 
     <div class="x-panel-content cv2iYVj" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cv2iYVj"> 
       <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcNzIVN3-iosstatusbar cv2iYVj" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cv2iYVj"> 
@@ -64,7 +76,7 @@
                 </div>  
                 <div class="x-col cv2iYVj" xid="col62" style="border-bottom-style:groove;color:gray;" __cid="cv2iYVj"> 
                   <span xid="span10" style="font-size:x-large;width:123px;height:37px;" __cid="cv2iYVj" class="cv2iYVj">资金记录</span>  
-                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-sm btn-only-icon pull-right cv2iYVj" xid="button5" style="height:39px;font-size:large;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-chevronright&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cv2iYVj"> 
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-sm btn-only-icon pull-right cv2iYVj" xid="financeIO" style="height:39px;font-size:large;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:financeIOClick" data-config="{&quot;icon&quot;:&quot;linear linear-chevronright&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cv2iYVj"> 
                     <i xid="i5" class="linear linear-chevronright cv2iYVj" __cid="cv2iYVj"/>  
                     <span xid="span14" __cid="cv2iYVj" class="cv2iYVj"/> 
                   </a> 

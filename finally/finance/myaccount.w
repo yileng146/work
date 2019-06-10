@@ -6,7 +6,7 @@
   <column name="p_id" type="String" xid="xid3"></column>
   <column name="u_blance" type="Float" xid="xid4"></column>
   <column name="u_in" type="Float" xid="xid5"></column></div></div>  
-  <div component="$UI/system/components/justep/panel/panel" 
+  <span component="$UI/system/components/justep/windowDialog/windowDialog" xid="windowDialog3" src="$UI/finally/finance/financeIO.w"></span><div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel2">
    <div class="x-panel-content" xid="content2">
@@ -47,7 +47,7 @@
    <i xid="i3" class="linear linear-calendarfull"></i>
    <span xid="span1"></span></a></div>
    <div class="x-col" xid="col62" style="border-bottom-style:groove;color:gray;"><span xid="span10" style="font-size:x-large;width:123px;height:37px;">资金记录</span>
-  <a component="$UI/system/components/justep/button/button" class="btn btn-sm btn-only-icon pull-right" label="button" xid="button5" icon="linear linear-chevronright" style="height:39px;font-size:large;">
+  <a component="$UI/system/components/justep/button/button" class="btn btn-sm btn-only-icon pull-right" label="button" xid="financeIO" icon="linear linear-chevronright" style="height:39px;font-size:large;" onClick="financeIOClick">
    <i xid="i5" class="linear linear-chevronright"></i>
    <span xid="span14"></span></a></div>
    </div>

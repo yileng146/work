@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window" design="device:m;" xid="window" class="window">  
-  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;top:59px;left:643px;"> 
-  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="user_inf" idColumn="u_blance" onCustomRefresh="user_infCustomRefresh"><column name="u_blance" type="Integer" xid="xid4"></column></div></div>  
+  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;top:20px;left:743px;"> 
+  <div component="$UI/system/components/justep/data/baasData" autoLoad="true" xid="user_inf" queryAction="queryUser_inf" saveAction="saveUser_inf" url="/jpush/copy/finally" tableName="user_inf" idColumn="user_id"><column label="user_balance" name="user_balance" type="Integer" xid="default4"></column>
+  <column label="user_password" name="user_password" type="String" xid="default5"></column>
+  <column label="user_id" name="user_id" type="Integer" xid="default6"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1"> 
@@ -24,7 +26,7 @@
    <ul class="x-list-template" xid="listTemplateUl1">
     <li xid="li1"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
    <div class="x-col" xid="col1"><span xid="span1"><![CDATA[账户余额：]]></span>
-  <span xid="span2" bind-text='val("u_blance")' style="color:#8000FF;font-size:medium;"></span>
+  <span xid="span2" bind-text='ref("user_balance")' style="color:#8000FF;font-size:medium;"></span>
   <span xid="span3"><![CDATA[元]]></span></div>
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
@@ -40,18 +42,18 @@
     <span xid="span6">金额
   </span></div> 
    <div class="x-col x-col-fixed" xid="col16">
-    <input type="text" value="" xid="input2" style="width:88%;height:50px;" placeholder="免手续费" align="left"></input>
-  <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-label pull-right" label="全部提现" xid="button4" icon="icon-eye-disabled" style="font-size:large;">
+    <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-label pull-right" label="全部提现" xid="button4" icon="icon-eye-disabled" style="font-size:large;">
    <i xid="i4" class="icon-eye-disabled"></i>
-   <span xid="span11">全部提现</span></a></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
+   <span xid="span11">全部提现</span></a>
+  <input component="$UI/system/components/justep/input/input" class="form-control" xid="input2" style="width:721px;" placeHolder="免手续费"></input></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
    <div class="x-col x-col-fixed x-col-center center-block" xid="col20" style="width:5%;">
     <span xid="span8">密码</span></div> 
    <div class="x-col x-col-fixed" xid="col19">
-    <input type="text" value="" xid="input3" style="width:88%;height:47px;" placeholder="理财账户交易密码"></input>
-     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon pull-right" label="button" xid="button1" icon="icon-eye-disabled" style="font-size:xx-large;">
+    <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon pull-right" label="button" xid="button1" icon="icon-eye-disabled" style="font-size:xx-large;">
      <i xid="i1" class="icon-eye-disabled"></i>
-     <span xid="span4"></span></a></div> 
-  </div><a component="$UI/system/components/justep/button/button" class="btn btn-default" label="提现" xid="button2" style="width:100%;font-size:large;">
+     <span xid="span4"></span></a>
+  <input component="$UI/system/components/justep/input/input" class="form-control" xid="input3" style="width:721px;" placeHolder="理财账户交易密码"></input></div> 
+  </div><a component="$UI/system/components/justep/button/button" class="btn btn-default" label="提现" xid="button2" style="width:100%;font-size:large;" onClick="button2Click">
    <i xid="i2"></i>
    <span xid="span9">提现</span></a></li></ul> </div>
   
