@@ -14,13 +14,5 @@ define(function(require){
 		});
 	};
 
-	Model.prototype.top_upClick = function(event){
-    this.comp("windowDialog1").open({
-		"params":{
-		"operator":"new"
-		}
-		});
-	};
-
 	return Model;
 });

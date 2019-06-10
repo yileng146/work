@@ -1,7 +1,7 @@
 define(function(require){
 	var $ = require("jquery");
 	var justep = require("$UI/system/lib/justep");
-
+	
 	var Model = function(){
 		this.callParent();
 	};
@@ -11,14 +11,6 @@ define(function(require){
 		$.ajaxSettings.async = false;
 		$.getJSON(url, function(data) {
 			event.source.loadData(data);
-		});
-	};
-
-	Model.prototype.top_upClick = function(event){
-    this.comp("windowDialog1").open({
-		"params":{
-		"operator":"new"
-		}
 		});
 	};
 

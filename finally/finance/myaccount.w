@@ -31,11 +31,11 @@
    <div class="x-col" xid="col48"><span xid="span9" bind-text='$model.user_inf.val("u_blance")'><![CDATA[]]></span></div>
    </div></div>
    <div class="x-col" xid="col42"></div>
-   <div class="x-col" xid="col43">
+   <div class="x-col x-col-fixed x-col-center" xid="col43" style="width:40%;">
   <a component="$UI/system/components/justep/button/button" class="btn x-gray btn-lg pull-right center-block" label="提现" xid="deposit_btn" style="font-size:large;width:98px;">
    <i xid="i1"></i>
    <span xid="span6">提现</span></a></div>
-  <div class="x-col" xid="col53"><a component="$UI/system/components/justep/button/button" class="btn x-orange btn-lg pull-right center-block" label="充值" xid="recharge" style="font-size:large;width:98px;">
+  <div class="x-col x-col-center" xid="col53"><a component="$UI/system/components/justep/button/button" class="btn x-orange btn-lg pull-right center-block" label="充值" xid="top-up" style="font-size:large;width:98px;" onClick="top_upClick">
    <i xid="i2"></i>
    <span xid="span7">充值</span></a></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row18">
@@ -55,9 +55,9 @@
    <div class="x-col x-col-fixed x-col-center" xid="col64" style="background-color:transparent;width:10%;"><a component="$UI/system/components/justep/button/button" class="btn btn-only-icon center-block" label="button" xid="button2" icon="linear linear-users" style="font-size:x-large;">
    <i xid="i4" class="linear linear-users"></i>
    <span xid="span2"></span></a></div>
-   <div class="x-col" xid="col65"><span xid="span11" style="font-size:x-large;width:123px;height:37px;"><![CDATA[交易密码]]></span></div>
-   <div class="x-col x-col-fixed x-col-center" xid="col66" style="width:30%;"><input component="$UI/system/components/justep/input/input" class="form-control" xid="input1" style="text-align:center;width:191px;"></input></div></div></div>
+   <div class="x-col" xid="col65"><span xid="span11" style="font-size:x-large;width:123px;height:40px;"><![CDATA[交易密码]]></span></div>
+   <div class="x-col x-col-fixed x-col-center" xid="col66" style="width:60%;"><input component="$UI/system/components/justep/input/input" class="form-control" xid="input1" style="text-align:center;width:191px;"></input></div></div></div>
    </div></div> 
    <div class="x-panel-bottom" xid="bottom1"></div></div></div>
   </div> 
-</div>
+<span component="$UI/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" src="$UI/finally/finance/top-up.w"></span></div>
