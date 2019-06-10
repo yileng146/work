@@ -11,7 +11,7 @@
             <span __cid="cz2eUVb" class="cz2eUVb"></span> 
           </a> 
         </div>  
-        <div class="x-titlebar-title cz2eUVb" __cid="cz2eUVb">首页推荐</div>  
+        <div class="x-titlebar-title cz2eUVb" __cid="cz2eUVb">理财产品</div>  
         <div class="x-titlebar-right  cz2eUVb" __cid="cz2eUVb">
           <div class="empty cz2eUVb" __cid="cz2eUVb"></div>
         </div> 
@@ -56,17 +56,17 @@
                 <span xid="span7" __cid="cz2eUVb" class="cz2eUVb">融资规模</span>
               </div>  
               <div class="x-col cz2eUVb" xid="col14" style="border-bottom-style:groove;" __cid="cz2eUVb">
-                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default pull-right cz2eUVb" xid="buy_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;label&#34;:&#34;购买&#34;}" __cid="cz2eUVb"> 
+                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default pull-right cz2eUVb" xid="buy_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'},style:{'background':val(&#34;p_salenum&#34;) &gt;=1?'orange':'gray'},disable:val(&#34;p_salenum&#34;) &gt;=1" __cid="cz2eUVb"> 
                   <i xid="i1" __cid="cz2eUVb" class="cz2eUVb"></i>  
-                  <span xid="span2" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&#34;fNumber&#34;)  <=5?&#34;抢购&#34;:&#34;售罄&#34; val(&#34;fNumber&#34;)  <=5?&#34;抢购&#34;:&#34;售罄&#34;  val(&#34;p_salenum&#34;) <=1?&#34;购买&#34;:&#34;抢光了&#34;"></span>
+                  <span xid="span2" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&#34;p_salenum&#34;) &gt;=1?&#34;抢购&#34;:&#34;抢光了&#34;,style:val(&#34;p_salenum&#34;) &gt;=1?'blue':'gray'"></span>
                 </a>
               </div>  
               <div class="x-col cz2eUVb" xid="col4" __cid="cz2eUVb"></div>
             </div>
             <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
               <span xid="span15" __cid="cz2eUVb" class="cz2eUVb">
-                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cz2eUVb" xid="button3" style="background-color:#FFFFFF;height:35;width:35;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;icon&#34;:&#34;icon-android-contact&#34;}" __cid="cz2eUVb"> 
-                  <i xid="i2" class="icon-android-contact cz2eUVb" __cid="cz2eUVb"></i>  
+                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cz2eUVb" xid="button3" style="background-color:#FFFFFF;height:35;width:35;font-size:large;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;icon&#34;:&#34;icon-android-social-user&#34;}" __cid="cz2eUVb"> 
+                  <i xid="i2" class="icon-android-social-user cz2eUVb" __cid="cz2eUVb"></i>  
                   <span xid="span16" __cid="cz2eUVb" class="cz2eUVb"></span>
                 </a>  
                 <span xid="span17" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&#34;fPurchase&#34;)"></span> 

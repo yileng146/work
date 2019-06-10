@@ -45,16 +45,16 @@
    <div class="x-col" xid="col11" style="border-bottom-style:groove;"><span xid="span5"><![CDATA[预期收益率]]></span></div>
    <div class="x-col" xid="col12" style="border-bottom-style:groove;"><span xid="span6"><![CDATA[项目期限]]></span></div>
    <div class="x-col" xid="col13" style="border-bottom-style:groove;"><span xid="span7"><![CDATA[融资规模]]></span></div>
-  <div class="x-col" xid="col14" style="border-bottom-style:groove;"><a component="$UI/system/components/justep/button/button" class="btn btn-default pull-right" label="购买" xid="buy_btn" bind-style=" val(&quot;p_salenum&quot;)&lt;=1?'blue':'gray'">
+  <div class="x-col" xid="col14" style="border-bottom-style:groove;"><a component="$UI/system/components/justep/button/button" class="btn btn-default pull-right" xid="buy_btn" bind-style="{'background':val(&quot;p_salenum&quot;) &gt;=1?'orange':'gray'}" bind-disable=' val("p_salenum") &gt;=1'>
    <i xid="i1"></i>
-   <span xid="span2">购买</span></a></div>
+   <span xid="span2" bind-text=' val("p_salenum") &gt;=1?"抢购":"抢光了"' bind-style=" val(&quot;p_salenum&quot;) &gt;=1?'blue':'gray'"></span></a></div>
   <div class="x-col" xid="col4"></div></div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
    <span xid="span15"><a component="$UI/system/components/justep/button/button" class="btn btn-link btn-only-icon" xid="button3" icon="icon-android-social-user" style="background-color:#FFFFFF;height:35;width:35;font-size:large;">
    <i xid="i2" class="icon-android-social-user"></i>
    <span xid="span16"></span></a>
   <span xid="span17" bind-text='val("fPurchase")'></span>
   </span>
-  <div class="x-col" xid="col5" style="border-bottom-style:groove;"></div>
+  <div class="x-col" xid="col5" style="border-bottom-style:groove;"><span xid="span11"></span></div>
   <div class="x-col" xid="col6" style="border-bottom-style:groove;"></div>
   <div class="x-col" xid="col15" style="border-bottom-style:groove;"></div>
   <div class="x-col" xid="col16" style="border-bottom-style:groove;"></div>
