@@ -59,7 +59,7 @@
                 <span xid="span13" __cid="czEBfIv" class="czEBfIv">账户余额：</span>
               </div>  
               <div class="x-col czEBfIv" xid="col3" __cid="czEBfIv">
-                <span xid="span19" bind-text="$model.user_info2.ref(&quot;user_balance&quot;)" __cid="czEBfIv" class="czEBfIv"/>
+                <span xid="span19" bind-text="$model.user_info2.ref(&quot;user_balance&quot;)" style="color:#FF8000;font-size:x-large;" __cid="czEBfIv" class="czEBfIv"/>
               </div>  
               <div class="x-col czEBfIv" xid="col6" __cid="czEBfIv"/>
             </div>  

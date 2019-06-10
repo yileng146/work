@@ -20,7 +20,7 @@
               <span></span> 
             </a> 
           </div>  
-          <div class="x-titlebar-title">理财产品</div>  
+          <div class="x-titlebar-title"><![CDATA[首页推荐]]></div>  
           <div class="x-titlebar-right reverse"> 
           </div>
         </div> 

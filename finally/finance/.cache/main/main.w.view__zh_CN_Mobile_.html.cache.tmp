@@ -5,100 +5,94 @@
   <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cAf6jeu" class="cAf6jeu"/>  
   <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcYr2iEn-iosstatusbar cAf6jeu" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cAf6jeu"> 
     <div class="x-panel-content cAf6jeu" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAf6jeu"> 
-      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cAf6jeu" xid="contents2" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cAf6jeu"> 
-        <div class="x-contents-content active cAf6jeu" xid="feature" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cAf6jeu"> 
-          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cAf6jeu" xid="windowContainer1" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;src&quot;:&quot;$model/UI2/finally/finance/featured.w&quot;}" __cid="cAf6jeu"> 
-            <div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cz2eUVb" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cz2eUVb" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,"> 
-              <style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
-              <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cz2eUVb" class="cz2eUVb"></div>  
-              <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcFRjEJr-iosstatusbar cz2eUVb" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cz2eUVb">  
-                <div class="x-panel-top cz2eUVb" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cz2eUVb"> 
-                  <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cz2eUVb" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;理财产品&quot;}" __cid="cz2eUVb"> 
-                    <div class="x-titlebar-left cz2eUVb" __cid="cz2eUVb"> 
-                      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cz2eUVb" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cz2eUVb"> 
-                        <i class="icon-chevron-left cz2eUVb" __cid="cz2eUVb"/>  
-                        <span __cid="cz2eUVb" class="cz2eUVb"/> 
-                      </a> 
-                    </div>  
-                    <div class="x-titlebar-title cz2eUVb" __cid="cz2eUVb">理财产品</div>  
-                    <div class="x-titlebar-right  cz2eUVb" __cid="cz2eUVb"> 
-                      <div class="empty cz2eUVb" __cid="cz2eUVb"/> 
-                    </div> 
-                  </div> 
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cAf6jeu" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cAf6jeu"> 
+        <div class="x-contents-content active cAf6jeu" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cAf6jeu"> 
+          <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcyq2Ifi-iosstatusbar cAf6jeu" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cAf6jeu"> 
+            <div class="x-panel-top cAf6jeu" xid="top2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAf6jeu"> 
+              <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cAf6jeu" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;理财产品&quot;}" __cid="cAf6jeu"> 
+                <div class="x-titlebar-left cAf6jeu" __cid="cAf6jeu"> 
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cAf6jeu" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cAf6jeu"> 
+                    <i class="icon-chevron-left cAf6jeu" __cid="cAf6jeu"/>  
+                    <span __cid="cAf6jeu" class="cAf6jeu"/> 
+                  </a> 
                 </div>  
-                <div class="x-panel-content cz2eUVb" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cz2eUVb"> 
-                  <div component="$model/UI2/system/components/justep/list/list" class="x-list cz2eUVb" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'},event:{click:$model._callModelFn.bind($model, 'list1Click')}" data-config="{&quot;data&quot;:&quot;finance_products&quot;}" __cid="cz2eUVb"> 
-                    <ul class="x-list-template hide cz2eUVb" xid="listTemplateUl1" __cid="cz2eUVb" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
-                      <li xid="li1" __cid="cz2eUVb" class="cz2eUVb"> 
-                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
-                          <div class="x-col x-col-fixed pull-left cz2eUVb" xid="col1" __cid="cz2eUVb"> 
-                            <span xid="span1" style="color:#800080;" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&quot;p_id&quot;)"/> 
-                          </div>  
-                          <div class="x-col x-col-25 cz2eUVb" xid="col3" __cid="cz2eUVb"> 
-                            <span xid="span3" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&quot;p_time&quot;)"/> 
-                          </div> 
-                        </div>  
-                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
-                          <div class="x-col x-col-center cz2eUVb" xid="col7" style="border-right-style:groove;" __cid="cz2eUVb"> 
-                            <span xid="span4" style="font-size:large;color:#FF8000;" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&quot;p_yuqishouyi&quot;)"/>  
-                            <span xid="span8" style="font-size:x-small;" __cid="cz2eUVb" class="cz2eUVb">%</span> 
-                          </div>  
-                          <div class="x-col x-col-center cz2eUVb" xid="col8" style="border-right-style:groove;" __cid="cz2eUVb"> 
-                            <span xid="span9" style="font-size:large;color:#0000FF;" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&quot;p_qixian&quot;)"/>  
-                            <span xid="span10" style="font-size:x-small;" __cid="cz2eUVb" class="cz2eUVb">天</span> 
-                          </div>  
-                          <div class="x-col x-col-center cz2eUVb" xid="col9" __cid="cz2eUVb"> 
-                            <span xid="span12" style="font-size:large;color:#8000FF;" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&quot;p_rongziguimo&quot;)"/>  
-                            <span xid="span13" style="font-size:x-small;color:#000000;" __cid="cz2eUVb" class="cz2eUVb">万</span> 
-                          </div>  
-                          <div class="x-col x-col-center cz2eUVb" xid="col10" __cid="cz2eUVb" data-bind="visible:val(&quot;fRush&quot;) != val(&quot;fRushray&quot;)"/>  
-                          <div class="x-col cz2eUVb" xid="col2" __cid="cz2eUVb"/> 
-                        </div>  
-                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
-                          <div class="x-col cz2eUVb" xid="col11" style="border-bottom-style:groove;" __cid="cz2eUVb"> 
-                            <span xid="span5" __cid="cz2eUVb" class="cz2eUVb">预期收益率</span> 
-                          </div>  
-                          <div class="x-col cz2eUVb" xid="col12" style="border-bottom-style:groove;" __cid="cz2eUVb"> 
-                            <span xid="span6" __cid="cz2eUVb" class="cz2eUVb">项目期限</span> 
-                          </div>  
-                          <div class="x-col cz2eUVb" xid="col13" style="border-bottom-style:groove;" __cid="cz2eUVb"> 
-                            <span xid="span7" __cid="cz2eUVb" class="cz2eUVb">融资规模</span> 
-                          </div>  
-                          <div class="x-col cz2eUVb" xid="col14" style="border-bottom-style:groove;" __cid="cz2eUVb"> 
-                            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default pull-right cz2eUVb" xid="buy_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'},style:{'background':val(&quot;p_salenum&quot;) &gt;=1?'orange':'gray'},disable:val(&quot;p_salenum&quot;) &lt;=1" __cid="cz2eUVb"> 
-                              <i xid="i1" __cid="cz2eUVb" class="cz2eUVb"/>  
-                              <span xid="span2" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&quot;p_salenum&quot;) &gt;=1?&quot;抢购&quot;:&quot;抢光了&quot;,style:val(&quot;p_salenum&quot;) &gt;=1?'blue':'gray'"/> 
-                            </a> 
-                          </div>  
-                          <div class="x-col cz2eUVb" xid="col4" __cid="cz2eUVb"/> 
-                        </div>  
-                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
-                          <span xid="span15" __cid="cz2eUVb" class="cz2eUVb"> 
-                            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cz2eUVb" xid="button3" style="background-color:#FFFFFF;height:35;width:35;font-size:large;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-social-user&quot;}" __cid="cz2eUVb"> 
-                              <i xid="i2" class="icon-android-social-user cz2eUVb" __cid="cz2eUVb"/>  
-                              <span xid="span16" __cid="cz2eUVb" class="cz2eUVb"/> 
-                            </a>  
-                            <span xid="span17" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&quot;fPurchase&quot;)"/> 
-                          </span>  
-                          <div class="x-col cz2eUVb" xid="col5" style="border-bottom-style:groove;" __cid="cz2eUVb"> 
-                            <span xid="span11" class="center-block cz2eUVb" style="text-align:center;" __cid="cz2eUVb" data-bind="text:&quot;该产品剩余&quot;+val(&quot;p_salenum&quot;)"/> 
-                          </div>  
-                          <div class="x-col cz2eUVb" xid="col6" style="border-bottom-style:groove;" __cid="cz2eUVb"/>  
-                          <div class="x-col cz2eUVb" xid="col15" style="border-bottom-style:groove;" __cid="cz2eUVb"/>  
-                          <div class="x-col cz2eUVb" xid="col16" style="border-bottom-style:groove;" __cid="cz2eUVb"/>  
-                          <div class="x-col cz2eUVb" xid="col17" __cid="cz2eUVb"/> 
-                        </div> 
-                      </li> 
-                    </ul> 
-                  </div> 
-                </div>  
-                <style __cid="cz2eUVb" class="cz2eUVb">.x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcFRjEJr-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+                <div class="x-titlebar-title cAf6jeu" __cid="cAf6jeu">首页推荐</div>  
+                <div class="x-titlebar-right  cAf6jeu" __cid="cAf6jeu"> 
+                  <div class="empty cAf6jeu" __cid="cAf6jeu"/> 
+                </div> 
               </div> 
-            </div> 
+            </div>  
+            <div class="x-panel-content cAf6jeu" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAf6jeu"> 
+              <div component="$model/UI2/system/components/justep/list/list" class="x-list cAf6jeu" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'},event:{click:$model._callModelFn.bind($model, 'list1Click')}" data-config="{&quot;data&quot;:&quot;finance_products&quot;}" __cid="cAf6jeu"> 
+                <ul class="x-list-template hide cAf6jeu" xid="listTemplateUl1" __cid="cAf6jeu" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+                  <li xid="li1" __cid="cAf6jeu" class="cAf6jeu"> 
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cAf6jeu" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cAf6jeu"> 
+                      <div class="x-col x-col-fixed pull-left cAf6jeu" xid="col1" __cid="cAf6jeu"> 
+                        <span xid="span1" style="color:#800080;" __cid="cAf6jeu" class="cAf6jeu" data-bind="text:val(&quot;p_id&quot;)"/> 
+                      </div>  
+                      <div class="x-col x-col-25 cAf6jeu" xid="col3" __cid="cAf6jeu"> 
+                        <span xid="span3" __cid="cAf6jeu" class="cAf6jeu" data-bind="text:val(&quot;p_time&quot;)"/> 
+                      </div> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cAf6jeu" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cAf6jeu"> 
+                      <div class="x-col x-col-center cAf6jeu" xid="col7" style="border-right-style:groove;" __cid="cAf6jeu"> 
+                        <span xid="span4" style="font-size:large;color:#FF8000;" __cid="cAf6jeu" class="cAf6jeu" data-bind="text:val(&quot;p_yuqishouyi&quot;)"/>  
+                        <span xid="span8" style="font-size:x-small;" __cid="cAf6jeu" class="cAf6jeu">%</span> 
+                      </div>  
+                      <div class="x-col x-col-center cAf6jeu" xid="col8" style="border-right-style:groove;" __cid="cAf6jeu"> 
+                        <span xid="span9" style="font-size:large;color:#0000FF;" __cid="cAf6jeu" class="cAf6jeu" data-bind="text:val(&quot;p_qixian&quot;)"/>  
+                        <span xid="span10" style="font-size:x-small;" __cid="cAf6jeu" class="cAf6jeu">天</span> 
+                      </div>  
+                      <div class="x-col x-col-center cAf6jeu" xid="col9" __cid="cAf6jeu"> 
+                        <span xid="span12" style="font-size:large;color:#8000FF;" __cid="cAf6jeu" class="cAf6jeu" data-bind="text:val(&quot;p_rongziguimo&quot;)"/>  
+                        <span xid="span13" style="font-size:x-small;color:#000000;" __cid="cAf6jeu" class="cAf6jeu">万</span> 
+                      </div>  
+                      <div class="x-col x-col-center cAf6jeu" xid="col10" __cid="cAf6jeu" data-bind="visible:val(&quot;fRush&quot;) != val(&quot;fRushray&quot;)"/>  
+                      <div class="x-col cAf6jeu" xid="col2" __cid="cAf6jeu"/> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cAf6jeu" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cAf6jeu"> 
+                      <div class="x-col cAf6jeu" xid="col11" style="border-bottom-style:groove;" __cid="cAf6jeu"> 
+                        <span xid="span5" __cid="cAf6jeu" class="cAf6jeu">预期收益率</span> 
+                      </div>  
+                      <div class="x-col cAf6jeu" xid="col12" style="border-bottom-style:groove;" __cid="cAf6jeu"> 
+                        <span xid="span6" __cid="cAf6jeu" class="cAf6jeu">项目期限</span> 
+                      </div>  
+                      <div class="x-col cAf6jeu" xid="col13" style="border-bottom-style:groove;" __cid="cAf6jeu"> 
+                        <span xid="span7" __cid="cAf6jeu" class="cAf6jeu">融资规模</span> 
+                      </div>  
+                      <div class="x-col cAf6jeu" xid="col14" style="border-bottom-style:groove;" __cid="cAf6jeu"> 
+                        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default pull-right cAf6jeu" xid="buy_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'},style:{'background':val(&quot;p_salenum&quot;) &gt;=1?'orange':'gray'},disable:val(&quot;p_salenum&quot;) ==0" __cid="cAf6jeu"> 
+                          <i xid="i1" __cid="cAf6jeu" class="cAf6jeu"/>  
+                          <span xid="span2" __cid="cAf6jeu" class="cAf6jeu" data-bind="text:val(&quot;p_salenum&quot;) &gt;=1?&quot;抢购&quot;:&quot;抢光了&quot;,style:val(&quot;p_salenum&quot;) &gt;=1?'blue':'gray'"/> 
+                        </a> 
+                      </div>  
+                      <div class="x-col cAf6jeu" xid="col4" __cid="cAf6jeu"/> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cAf6jeu" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cAf6jeu"> 
+                      <span xid="span15" __cid="cAf6jeu" class="cAf6jeu"> 
+                        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cAf6jeu" xid="button3" style="background-color:#FFFFFF;height:35;width:35;font-size:large;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-social-user&quot;}" __cid="cAf6jeu"> 
+                          <i xid="i2" class="icon-android-social-user cAf6jeu" __cid="cAf6jeu"/>  
+                          <span xid="span16" __cid="cAf6jeu" class="cAf6jeu"/> 
+                        </a>  
+                        <span xid="span17" __cid="cAf6jeu" class="cAf6jeu" data-bind="text:val(&quot;fPurchase&quot;)"/> 
+                      </span>  
+                      <div class="x-col cAf6jeu" xid="col5" style="border-bottom-style:groove;" __cid="cAf6jeu"> 
+                        <span xid="span11" class="center-block cAf6jeu" style="text-align:center;" __cid="cAf6jeu" data-bind="text:&quot;该产品剩余&quot;+val(&quot;p_salenum&quot;)"/> 
+                      </div>  
+                      <div class="x-col cAf6jeu" xid="col6" style="border-bottom-style:groove;" __cid="cAf6jeu"/>  
+                      <div class="x-col cAf6jeu" xid="col15" style="border-bottom-style:groove;" __cid="cAf6jeu"/>  
+                      <div class="x-col cAf6jeu" xid="col16" style="border-bottom-style:groove;" __cid="cAf6jeu"/>  
+                      <div class="x-col cAf6jeu" xid="col17" __cid="cAf6jeu"/> 
+                    </div> 
+                  </li> 
+                </ul> 
+              </div> 
+            </div>  
+            <style __cid="cAf6jeu" class="cAf6jeu">.x-panel.pcyq2Ifi-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcyq2Ifi-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcyq2Ifi-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcyq2Ifi-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyq2Ifi-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcyq2Ifi-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyq2Ifi-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyq2Ifi-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyq2Ifi-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
           </div> 
         </div>  
-        <div class="x-contents-content cAf6jeu" xid="finance" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cAf6jeu"> 
-          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cAf6jeu" xid="windowContainer2" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;src&quot;:&quot;$model/UI2/finally/finance/finance.w&quot;}" __cid="cAf6jeu"> 
+        <div class="x-contents-content cAf6jeu" xid="finance_" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cAf6jeu"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cAf6jeu" xid="finance" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;src&quot;:&quot;$model/UI2/finally/finance/finance.w&quot;}" __cid="cAf6jeu"> 
             <div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cVbUnQf" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cVbUnQf" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,"> 
               <style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
               <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cVbUnQf" class="cVbUnQf"></div>  
@@ -186,8 +180,8 @@
             </div> 
           </div> 
         </div>  
-        <div class="x-contents-content cAf6jeu" xid="myaccount" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cAf6jeu"> 
-          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cAf6jeu" xid="windowContainer3" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;src&quot;:&quot;$model/UI2/finally/finance/myaccount.w&quot;}" __cid="cAf6jeu"> 
+        <div class="x-contents-content cAf6jeu" xid="myaccount_" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cAf6jeu"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cAf6jeu" xid="myaccount" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;src&quot;:&quot;$model/UI2/finally/finance/myaccount.w&quot;}" __cid="cAf6jeu"> 
             <div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cv2iYVj" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cv2iYVj" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,$model/UI2/system/components/justep/panel/panel,"> 
               <style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
               <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cv2iYVj" class="cv2iYVj"></div>  
@@ -419,7 +413,7 @@
                         <span style="font-size: 18px;" __cid="cfi2u6v" class="cfi2u6v">QQ号二维码：</span> 
                       </p>  
                       <p align="left" __cid="cfi2u6v" class="cfi2u6v"> 
-                        <img alt="" src="@justepContextPath@/v_cb149a9279504b379620f727955df2aal_zh_CNs_d_m/finally/finance/img/erweima.jpg" style="width:151px;height:156px;" __cid="cfi2u6v" class="cfi2u6v"/> 
+                        <img alt="" src="@justepContextPath@/v_1fdaf348c15f4f15a4c2882278915034l_zh_CNs_d_m/finally/finance/img/erweima.jpg" style="width:151px;height:156px;" __cid="cfi2u6v" class="cfi2u6v"/> 
                       </p>  
                       <p align="left" __cid="cfi2u6v" class="cfi2u6v"/>  
                       <hr __cid="cfi2u6v" class="cfi2u6v"/> 
@@ -436,30 +430,26 @@
         </div> 
       </div> 
     </div>  
-    <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcBvAN32-iosstatusbar cAf6jeu" xid="panel3" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cAf6jeu"> 
-      <div class="x-panel-content cAf6jeu" xid="content3" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAf6jeu"/>  
-      <div class="x-panel-bottom cAf6jeu" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAf6jeu"> 
-        <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cAf6jeu" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;selected&quot;:&quot;featured_btn&quot;,&quot;tabbed&quot;:true}" __cid="cAf6jeu"> 
-          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cAf6jeu" xid="featured_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-star&quot;,&quot;label&quot;:&quot;首页推荐&quot;,&quot;target&quot;:&quot;feature&quot;}" __cid="cAf6jeu"> 
-            <i xid="i1" class="icon-android-star cAf6jeu" __cid="cAf6jeu"/>  
-            <span xid="span1" __cid="cAf6jeu" class="cAf6jeu">首页推荐</span> 
-          </a>  
-          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cAf6jeu" xid="finance_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-storage&quot;,&quot;label&quot;:&quot;理财产品&quot;,&quot;target&quot;:&quot;finance&quot;}" __cid="cAf6jeu"> 
-            <i xid="i4" class="icon-android-storage cAf6jeu" __cid="cAf6jeu"/>  
-            <span xid="span4" __cid="cAf6jeu" class="cAf6jeu">理财产品</span> 
-          </a>  
-          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cAf6jeu" xid="myaccount_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-social-user&quot;,&quot;label&quot;:&quot;我的账户&quot;,&quot;target&quot;:&quot;myaccount&quot;}" __cid="cAf6jeu"> 
-            <i xid="i3" class="icon-android-social-user cAf6jeu" __cid="cAf6jeu"/>  
-            <span xid="span3" __cid="cAf6jeu" class="cAf6jeu">我的账户</span> 
-          </a>  
-          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cAf6jeu" xid="aboutus_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-help&quot;,&quot;label&quot;:&quot;关于我们&quot;,&quot;target&quot;:&quot;aboutus&quot;}" __cid="cAf6jeu"> 
-            <i xid="i2" class="icon-ios7-help cAf6jeu" __cid="cAf6jeu"/>  
-            <span xid="span2" __cid="cAf6jeu" class="cAf6jeu">关于我们</span> 
-          </a> 
-        </div> 
-      </div>  
-      <style __cid="cAf6jeu" class="cAf6jeu">.x-panel.pcBvAN32-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcBvAN32-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcBvAN32-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcBvAN32-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcBvAN32-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcBvAN32-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcBvAN32-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcBvAN32-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcBvAN32-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+    <div class="x-panel-bottom cAf6jeu" xid="caidan" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAf6jeu"> 
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cAf6jeu" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cAf6jeu"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-xs btn-icon-top cAf6jeu" xid="shouye" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-home&quot;,&quot;label&quot;:&quot;首页推荐&quot;,&quot;target&quot;:&quot;content2&quot;}" __cid="cAf6jeu"> 
+          <i xid="i4" class="icon-home cAf6jeu" __cid="cAf6jeu"/>  
+          <span xid="span11" __cid="cAf6jeu" class="cAf6jeu">首页推荐</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-xs btn-icon-top cAf6jeu" xid="licai" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-storage&quot;,&quot;label&quot;:&quot;理财产品&quot;,&quot;target&quot;:&quot;finance_&quot;}" __cid="cAf6jeu"> 
+          <i xid="i3" class="icon-android-storage cAf6jeu" __cid="cAf6jeu"/>  
+          <span xid="span2" __cid="cAf6jeu" class="cAf6jeu">理财产品</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-xs btn-icon-top cAf6jeu" xid="my" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-social-user&quot;,&quot;label&quot;:&quot;我的账户&quot;,&quot;target&quot;:&quot;myaccount_&quot;}" __cid="cAf6jeu"> 
+          <i xid="i6" class="icon-android-social-user cAf6jeu" __cid="cAf6jeu"/>  
+          <span xid="span19" __cid="cAf6jeu" class="cAf6jeu">我的账户</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-xs btn-icon-top cAf6jeu" xid="guanyu" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-help-circled&quot;,&quot;label&quot;:&quot;关于我们&quot;,&quot;target&quot;:&quot;aboutus&quot;}" __cid="cAf6jeu"> 
+          <i xid="i5" class="icon-help-circled cAf6jeu" __cid="cAf6jeu"/>  
+          <span xid="span18" __cid="cAf6jeu" class="cAf6jeu">关于我们</span> 
+        </a> 
+      </div> 
     </div>  
-    <style __cid="cAf6jeu" class="cAf6jeu">.x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+    <style __cid="cAf6jeu" class="cAf6jeu">.x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYr2iEn-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
   </div> 
 </div>

@@ -4,7 +4,7 @@
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="c22ErIz" class="c22ErIz"></div>  
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcvaEF3m-iosstatusbar c22ErIz" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c22ErIz"> 
     <div class="x-panel-top c22ErIz" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c22ErIz"> 
-      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c22ErIz" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;快捷充值&quot;}" __cid="c22ErIz"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c22ErIz" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;提现&quot;}" __cid="c22ErIz"> 
         <div class="x-titlebar-left c22ErIz" __cid="c22ErIz"> 
           <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link c22ErIz" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;返回&quot;}" __cid="c22ErIz"> 
             <i class="icon-chevron-left c22ErIz" __cid="c22ErIz"/>  
