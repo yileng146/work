@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window czEBfIv" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="czEBfIv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
-  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="czEBfIv" class="czEBfIv"></div>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="czEBfIv" class="czEBfIv"></div>  
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pczqqAvy-iosstatusbar czEBfIv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="czEBfIv"> 
     <div class="x-panel-top czEBfIv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="czEBfIv"> 
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar czEBfIv" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;理财产品&quot;}" __cid="czEBfIv"> 
@@ -18,21 +18,23 @@
       </div> 
     </div>  
     <div class="x-panel-content czEBfIv" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="czEBfIv">
-      <div component="$model/UI2/system/components/justep/list/list" class="x-list czEBfIv" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;productsdata&quot;}" __cid="czEBfIv"> 
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list czEBfIv" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;finance_2&quot;,&quot;filter&quot;:&quot; $row.val(\&quot;p_id\&quot;)==$model.params.p_id&quot;}" __cid="czEBfIv"> 
         <ul class="x-list-template hide czEBfIv" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="czEBfIv"> 
           <li xid="li1" __cid="czEBfIv" class="czEBfIv">
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
               <div class="x-col czEBfIv" xid="col1" __cid="czEBfIv">
-                <span xid="span1" bind-text="$model.finance1.val(&quot;p_id&quot;)+&quot;号&quot;" __cid="czEBfIv" class="czEBfIv"/> 
+                <span xid="span1" bind-text="val(&quot;p_id&quot;)" style="font-size:x-small;color:#8000FF;" __cid="czEBfIv" class="czEBfIv"/> 
               </div> 
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
-              <div class="x-col czEBfIv" xid="col4" __cid="czEBfIv">
-                <span xid="span3" style="font-size:xx-large;" bind-text="$model.finance1.val(&quot;p_yuqishouyi&quot;)+&quot;%&quot;" __cid="czEBfIv" class="czEBfIv"/> 
+              <div class="x-col czEBfIv" xid="col4" style="width:10%;" __cid="czEBfIv">
+                <span xid="span3" style="font-size:xx-large;color:#FF8000;" bind-text="val(&quot;p_yuqishouyi&quot;)" __cid="czEBfIv" class="czEBfIv"/>  
+                <span xid="span26" __cid="czEBfIv" class="czEBfIv">%</span>
               </div>  
-              <div class="x-col czEBfIv" xid="col5" __cid="czEBfIv">
-                <span xid="span5" style="font-size:xx-large;" bind-text="$model.finance1.val(&quot;p_qixian&quot;)+&quot;天&quot;" __cid="czEBfIv" class="czEBfIv"/> 
-              </div> 
+              <div class="x-col czEBfIv" xid="col26" __cid="czEBfIv"> 
+                <span xid="span24" bind-text="val(&quot;p_qixian&quot;)" style="color:#FF0080;font-size:xx-large;" __cid="czEBfIv" class="czEBfIv"/>  
+                <span xid="span27" __cid="czEBfIv" class="czEBfIv">天</span>
+              </div>
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
               <div class="x-col czEBfIv" xid="col7" __cid="czEBfIv">
@@ -40,11 +42,11 @@
               </div>  
               <div class="x-col czEBfIv" xid="col8" __cid="czEBfIv">
                 <span xid="span8" __cid="czEBfIv" class="czEBfIv">项目期限</span>
-              </div>
+              </div> 
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
               <div class="x-col czEBfIv" xid="col12" __cid="czEBfIv">
-                <span xid="span9" bind-text="$model.finance1.val(&quot;p_rongziguimo&quot;)+&quot;元&quot;" __cid="czEBfIv" class="czEBfIv"/> 
+                <span xid="span9" bind-text=" val(&quot;p_yuqishouyi&quot;) *10000 +&quot;元&quot;" style="color:#8080C0;font-size:medium;" __cid="czEBfIv" class="czEBfIv"/> 
               </div> 
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 

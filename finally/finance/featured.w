@@ -25,10 +25,10 @@
           </div>
         </div> 
       </div>  
-     <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="finance_products">
+     <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="finance_products" bind-click="list1Click">
    <ul class="x-list-template" xid="listTemplateUl1">
     <li xid="li1"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
-   <div class="x-col x-col-fixed pull-left" xid="col1"><span xid="span1" bind-text=' val("p_id") +"号"' style="color:#800080;"></span></div>
+   <div class="x-col x-col-fixed pull-left" xid="col1"><span xid="span1" bind-text='val("p_id")' style="color:#800080;"></span></div>
    <div class="x-col x-col-25" xid="col3"><span xid="span3" bind-text='val("p_time")'></span></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
    <div class="x-col x-col-center" xid="col7" style="border-right-style:groove;"><span xid="span4" bind-text='val("p_yuqishouyi")' style="font-size:large;color:#FF8000;"></span>
@@ -45,7 +45,7 @@
    <div class="x-col" xid="col11" style="border-bottom-style:groove;"><span xid="span5"><![CDATA[预期收益率]]></span></div>
    <div class="x-col" xid="col12" style="border-bottom-style:groove;"><span xid="span6"><![CDATA[项目期限]]></span></div>
    <div class="x-col" xid="col13" style="border-bottom-style:groove;"><span xid="span7"><![CDATA[融资规模]]></span></div>
-  <div class="x-col" xid="col14" style="border-bottom-style:groove;"><a component="$UI/system/components/justep/button/button" class="btn btn-default pull-right" xid="buy_btn" bind-style="{'background':val(&quot;p_salenum&quot;) &gt;=1?'orange':'gray'}" bind-disable=' val("p_salenum") &gt;=1'>
+  <div class="x-col" xid="col14" style="border-bottom-style:groove;"><a component="$UI/system/components/justep/button/button" class="btn btn-default pull-right" xid="buy_btn" bind-style="{'background':val(&quot;p_salenum&quot;) &gt;=1?'orange':'gray'}" bind-disable=' val("p_salenum") &lt;=1'>
    <i xid="i1"></i>
    <span xid="span2" bind-text=' val("p_salenum") &gt;=1?"抢购":"抢光了"' bind-style=" val(&quot;p_salenum&quot;) &gt;=1?'blue':'gray'"></span></a></div>
   <div class="x-col" xid="col4"></div></div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">

@@ -18,12 +18,12 @@
       </div> 
     </div>  
     <div class="x-panel-content cz2eUVb" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cz2eUVb">
-      <div component="$model/UI2/system/components/justep/list/list" class="x-list cz2eUVb" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;finance_products&#34;}" __cid="cz2eUVb"> 
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cz2eUVb" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'},event:{click:$model._callModelFn.bind($model, 'list1Click')}" data-config="{&#34;data&#34;:&#34;finance_products&#34;}" __cid="cz2eUVb"> 
         <ul class="x-list-template hide cz2eUVb" xid="listTemplateUl1" __cid="cz2eUVb" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
           <li xid="li1" __cid="cz2eUVb" class="cz2eUVb">
             <div component="$model/UI2/system/components/justep/row/row" class="x-row cz2eUVb" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cz2eUVb"> 
               <div class="x-col x-col-fixed pull-left cz2eUVb" xid="col1" __cid="cz2eUVb">
-                <span xid="span1" style="color:#800080;" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&#34;p_id&#34;) +&#34;号&#34;"></span>
+                <span xid="span1" style="color:#800080;" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&#34;p_id&#34;)"></span>
               </div>  
               <div class="x-col x-col-25 cz2eUVb" xid="col3" __cid="cz2eUVb">
                 <span xid="span3" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&#34;p_time&#34;)"></span>
@@ -56,7 +56,7 @@
                 <span xid="span7" __cid="cz2eUVb" class="cz2eUVb">融资规模</span>
               </div>  
               <div class="x-col cz2eUVb" xid="col14" style="border-bottom-style:groove;" __cid="cz2eUVb">
-                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default pull-right cz2eUVb" xid="buy_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'},style:{'background':val(&#34;p_salenum&#34;) &gt;=1?'orange':'gray'},disable:val(&#34;p_salenum&#34;) &gt;=1" __cid="cz2eUVb"> 
+                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default pull-right cz2eUVb" xid="buy_btn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'},style:{'background':val(&#34;p_salenum&#34;) &gt;=1?'orange':'gray'},disable:val(&#34;p_salenum&#34;) <=1" __cid="cz2eUVb"> 
                   <i xid="i1" __cid="cz2eUVb" class="cz2eUVb"></i>  
                   <span xid="span2" __cid="cz2eUVb" class="cz2eUVb" data-bind="text:val(&#34;p_salenum&#34;) &gt;=1?&#34;抢购&#34;:&#34;抢光了&#34;,style:val(&#34;p_salenum&#34;) &gt;=1?'blue':'gray'"></span>
                 </a>

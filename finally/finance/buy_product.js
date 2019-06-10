@@ -6,8 +6,14 @@ define(function(require){
 		this.callParent();
 	};
 
-	Model.prototype.productsdataCustomRefresh = function(event){
-		var url = require.toUrl("Json/money.json");
+
+	Model.prototype.modelParamsReceive = function(event){
+        alter(this.params.p_ID)
+	};
+
+
+	Model.prototype.finance_2CustomRefresh = function(event){
+     var url = require.toUrl("./json/f2.json");
 		$.ajaxSettings.async = false;
 		$.getJSON(url, function(data) {
 			event.source.loadData(data);
@@ -16,13 +22,6 @@ define(function(require){
 
 
 
-	Model.prototype.myaccountdataCustomRefresh = function(event){
-		var url = require.toUrl("Json/myaccount.json");
-		$.ajaxSettings.async = false;
-		$.getJSON(url, function(data) {
-			event.source.loadData(data);
-		});
-	};
 
 
 
