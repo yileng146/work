@@ -27,7 +27,7 @@
     <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" filter=' $row.val("p_id")==$model.params.p_id' data="finance_2">
    <ul class="x-list-template" xid="listTemplateUl1">
     <li xid="li1"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
-   <div class="x-col" xid="col1"><span xid="span1" bind-text='val("p_id")' style="font-size:x-small;color:#8000FF;"></span>
+   <div class="x-col" xid="col1"><span xid="span1" style="font-size:x-small;color:#8000FF;" bind-text=' val("p_id")'></span>
   </div>
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">

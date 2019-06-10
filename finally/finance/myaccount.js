@@ -22,5 +22,13 @@ define(function(require){
 		});
 	};
 
+	Model.prototype.deposit_btnClick = function(event){
+		this.comp("windowDialog2").open({
+		"params":{
+		"operator":"new"
+		}
+		});
+	};
+
 	return Model;
 });

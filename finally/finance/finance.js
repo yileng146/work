@@ -14,5 +14,10 @@ define(function(require){
 		});
 	};
 
+	Model.prototype.list1Click = function(event){
+		 var p_id=this.comp("finance_products").val('id');
+        justep.Shell.showPage(require.toUrl("./buy_product.w"), {"p_id":p_id});
+	};
+
 	return Model;
 });

@@ -32,7 +32,7 @@
    </div></div>
    <div class="x-col" xid="col42"></div>
    <div class="x-col x-col-fixed x-col-center" xid="col43" style="width:40%;">
-  <a component="$UI/system/components/justep/button/button" class="btn x-gray btn-lg pull-right center-block" label="提现" xid="deposit_btn" style="font-size:large;width:98px;">
+  <a component="$UI/system/components/justep/button/button" class="btn x-gray btn-lg pull-right center-block" label="提现" xid="deposit_btn" style="font-size:large;width:98px;" onClick="deposit_btnClick">
    <i xid="i1"></i>
    <span xid="span6">提现</span></a></div>
   <div class="x-col x-col-center" xid="col53"><a component="$UI/system/components/justep/button/button" class="btn x-orange btn-lg pull-right center-block" label="充值" xid="top-up" style="font-size:large;width:98px;" onClick="top_upClick">
@@ -60,4 +60,4 @@
    </div></div> 
    <div class="x-panel-bottom" xid="bottom1"></div></div></div>
   </div> 
-<span component="$UI/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" src="$UI/finally/finance/top-up.w"></span></div>
+<span component="$UI/system/components/justep/windowDialog/windowDialog" xid="windowDialog2" src="$UI/finally/finance/withdraw.w"></span><span component="$UI/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" src="$UI/finally/finance/top-up.w"></span></div>

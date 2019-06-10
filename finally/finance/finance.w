@@ -25,7 +25,7 @@
           </div>
         </div> 
       </div>  
-     <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="finance_products">
+     <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="finance_products" bind-click="list1Click">
    <ul class="x-list-template" xid="listTemplateUl1">
     <li xid="li1"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
    <div class="x-col x-col-fixed pull-left" xid="col1"><span xid="span1" bind-text=' val("p_id") +"号"' style="color:#800080;"></span></div>

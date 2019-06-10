@@ -18,7 +18,7 @@
       </div> 
     </div>  
     <div class="x-panel-content cVbUnQf" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cVbUnQf">
-      <div component="$model/UI2/system/components/justep/list/list" class="x-list cVbUnQf" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;finance_products&#34;}" __cid="cVbUnQf"> 
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cVbUnQf" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'},event:{click:$model._callModelFn.bind($model, 'list1Click')}" data-config="{&#34;data&#34;:&#34;finance_products&#34;}" __cid="cVbUnQf"> 
         <ul class="x-list-template hide cVbUnQf" xid="listTemplateUl1" __cid="cVbUnQf" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
           <li xid="li1" __cid="cVbUnQf" class="cVbUnQf">
             <div component="$model/UI2/system/components/justep/row/row" class="x-row cVbUnQf" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVbUnQf"> 

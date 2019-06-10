@@ -23,7 +23,7 @@
           <li xid="li1" __cid="czEBfIv" class="czEBfIv">
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
               <div class="x-col czEBfIv" xid="col1" __cid="czEBfIv">
-                <span xid="span1" bind-text="val(&quot;p_id&quot;)" style="font-size:x-small;color:#8000FF;" __cid="czEBfIv" class="czEBfIv"/> 
+                <span xid="span1" style="font-size:x-small;color:#8000FF;" bind-text=" val(&quot;p_id&quot;)" __cid="czEBfIv" class="czEBfIv"/> 
               </div> 
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 

@@ -31,7 +31,7 @@
             </div>  
             <div component="$model/UI2/system/components/justep/row/row" class="x-row c7FJjIj" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c7FJjIj"> 
               <div class="x-col x-col-fixed x-col-center c7FJjIj" xid="col2" style="width:30%;" __cid="c7FJjIj"> 
-                <img src="@justepContextPath@/v_6fb2b536d9a1496cacabe3a89f3af145l_zh_CNs_d_m/finally/finance/img/chinabank.png" alt="" xid="image1" class="pull-right c7FJjIj" style="width:60px;height:56px;" __cid="c7FJjIj"/> 
+                <img src="@justepContextPath@/v_ddea2ec51038456f9a0d9430beb6cf62l_zh_CNs_d_m/finally/finance/img/chinabank.png" alt="" xid="image1" class="pull-right c7FJjIj" style="width:60px;height:56px;" __cid="c7FJjIj"/> 
               </div>  
               <div class="x-col c7FJjIj" xid="col4" __cid="c7FJjIj"> 
                 <div component="$model/UI2/system/components/justep/row/row" class="x-row c7FJjIj" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c7FJjIj"/>  
