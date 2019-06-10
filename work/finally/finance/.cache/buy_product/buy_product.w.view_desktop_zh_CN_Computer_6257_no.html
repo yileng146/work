@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window czEBfIv" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="czEBfIv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="czEBfIv" class="czEBfIv"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pczqqAvy-iosstatusbar czEBfIv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="czEBfIv"> 
+    <div class="x-panel-top czEBfIv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="czEBfIv"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar czEBfIv" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;理财产品&#34;}" __cid="czEBfIv"> 
+        <div class="x-titlebar-left czEBfIv" __cid="czEBfIv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon czEBfIv" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&#34;icon&#34;:&#34;icon-chevron-left&#34;,&#34;label&#34;:&#34;&#34;}" __cid="czEBfIv"> 
+            <i class="icon-chevron-left czEBfIv" __cid="czEBfIv"></i>  
+            <span __cid="czEBfIv" class="czEBfIv"></span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title czEBfIv" __cid="czEBfIv">理财产品</div>  
+        <div class="x-titlebar-right  czEBfIv" __cid="czEBfIv">
+          <div class="empty czEBfIv" __cid="czEBfIv"></div>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content czEBfIv" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="czEBfIv">
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list czEBfIv" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;productsdata&#34;}" __cid="czEBfIv"> 
+        <ul class="x-list-template hide czEBfIv" xid="listTemplateUl1" __cid="czEBfIv" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+          <li xid="li1" __cid="czEBfIv" class="czEBfIv">
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+              <div class="x-col czEBfIv" xid="col1" __cid="czEBfIv">
+                <span xid="span1" __cid="czEBfIv" class="czEBfIv" data-bind="text:val(&#34;m_no&#34;)"></span> 
+              </div> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+              <div class="x-col czEBfIv" xid="col4" __cid="czEBfIv">
+                <span xid="span3" style="font-size:xx-large;" __cid="czEBfIv" class="czEBfIv" data-bind="text:val(&#34;m_return&#34;)"></span>  
+                <span xid="span4" __cid="czEBfIv" class="czEBfIv">%</span>
+              </div>  
+              <div class="x-col czEBfIv" xid="col5" __cid="czEBfIv">
+                <span xid="span5" style="font-size:xx-large;" __cid="czEBfIv" class="czEBfIv" data-bind="text:val(&#34;m_pjtime&#34;)"></span>  
+                <span xid="span6" __cid="czEBfIv" class="czEBfIv">天</span>
+              </div> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+              <div class="x-col czEBfIv" xid="col7" __cid="czEBfIv">
+                <span xid="span7" __cid="czEBfIv" class="czEBfIv">预期收益率</span>
+              </div>  
+              <div class="x-col czEBfIv" xid="col8" __cid="czEBfIv">
+                <span xid="span8" __cid="czEBfIv" class="czEBfIv">项目期限</span>
+              </div>
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+              <div class="x-col czEBfIv" xid="col12" __cid="czEBfIv">
+                <span xid="span9" __cid="czEBfIv" class="czEBfIv" data-bind="text:val(&#34;m_money&#34;)"></span>  
+                <span xid="span11" __cid="czEBfIv" class="czEBfIv">万元</span>
+              </div> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+              <div class="x-col czEBfIv" xid="col15" style="font-size:small;" __cid="czEBfIv"> 
+                <span xid="span10" __cid="czEBfIv" class="czEBfIv">融资规模</span>
+              </div>
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+              <div class="x-col x-col-fixed x-col-center czEBfIv" xid="col2" style="width:10%;" __cid="czEBfIv">
+                <span xid="span13" __cid="czEBfIv" class="czEBfIv">账户余额：</span>
+              </div>  
+              <div class="x-col czEBfIv" xid="col3" __cid="czEBfIv">
+                <span xid="span19" __cid="czEBfIv" class="czEBfIv"></span>
+              </div>  
+              <div class="x-col czEBfIv" xid="col6" __cid="czEBfIv"></div>
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+              <div class="x-col czEBfIv" xid="col10" __cid="czEBfIv"></div> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row8" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+              <li xid="li2" __cid="czEBfIv" class="czEBfIv">
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+                  <div class="x-col czEBfIv" xid="col18" __cid="czEBfIv"> 
+                    <span xid="span12" __cid="czEBfIv" class="czEBfIv">账户余额：</span>
+                  </div>  
+                  <div class="x-col x-col-80 czEBfIv" xid="col20" __cid="czEBfIv"> 
+                    <input component="$model/UI2/system/components/justep/input/input" class="form-control czEBfIv" xid="input1" data-bind="component:{ref:$model.myaccountdata.ref(&#34;m_balance&#34;),name:'$model/UI2/system/components/justep/input/input'}" __cid="czEBfIv">
+                  </div>  
+                  <div class="x-col czEBfIv" xid="col21" __cid="czEBfIv"> 
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn czEBfIv" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;label&#34;:&#34;全投&#34;}" __cid="czEBfIv"> 
+                      <i xid="i1" __cid="czEBfIv" class="czEBfIv"></i>  
+                      <span xid="span14" __cid="czEBfIv" class="czEBfIv">全投</span>
+                    </a> 
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row8" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+                  <div class="x-col czEBfIv" xid="col22" __cid="czEBfIv"> 
+                    <span xid="span16" __cid="czEBfIv" class="czEBfIv">交易密码：</span>
+                  </div>  
+                  <div class="x-col x-col-80 czEBfIv" xid="col24" __cid="czEBfIv"> 
+                    <input component="$model/UI2/system/components/justep/input/input" class="form-control czEBfIv" xid="input2" data-bind="component:{ref:ref(&#34;m_password&#34;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&#34;dataType&#34;:&#34;String&#34;}" __cid="czEBfIv">
+                  </div>  
+                  <div class="x-col czEBfIv" xid="col23" __cid="czEBfIv"> 
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn btn-only-icon czEBfIv" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;icon&#34;:&#34;icon-android-close&#34;,&#34;label&#34;:&#34;delete&#34;}" __cid="czEBfIv"> 
+                      <i xid="i2" class="icon-android-close czEBfIv" __cid="czEBfIv"></i>  
+                      <span xid="span15" __cid="czEBfIv" class="czEBfIv">delete</span>
+                    </a>  
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn btn-only-icon czEBfIv" xid="button4" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;icon&#34;:&#34;icon-eye-disabled&#34;,&#34;label&#34;:&#34;button&#34;}" __cid="czEBfIv"> 
+                      <i xid="i4" class="icon-eye-disabled czEBfIv" __cid="czEBfIv"></i>  
+                      <span xid="span18" __cid="czEBfIv" class="czEBfIv"></span>
+                    </a> 
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row10" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+                  <div class="x-col czEBfIv" xid="col28" __cid="czEBfIv"></div>
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row czEBfIv" xid="row11" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEBfIv"> 
+                  <div class="x-col czEBfIv" xid="col31" __cid="czEBfIv"> 
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default czEBfIv" xid="button3" style="width:100%;height:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;label&#34;:&#34;购买&#34;}" __cid="czEBfIv"> 
+                      <i xid="i3" __cid="czEBfIv" class="czEBfIv"></i>  
+                      <span xid="span17" __cid="czEBfIv" class="czEBfIv">购买</span>
+                    </a> 
+                  </div> 
+                </div>
+              </li> 
+            </div>
+          </li> 
+        </ul> 
+      </div> 
+    </div>  
+    <style __cid="czEBfIv" class="czEBfIv">.x-panel.pczqqAvy-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pczqqAvy-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pczqqAvy-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pczqqAvy-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pczqqAvy-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pczqqAvy-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pczqqAvy-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pczqqAvy-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pczqqAvy-iosstatusbar >.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
