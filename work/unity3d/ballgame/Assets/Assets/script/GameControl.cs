@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor.SceneManagement;
 
+
 public class GameControl : MonoBehaviour
 {
     public EnemyProduct enemyProduct;
@@ -16,6 +17,7 @@ public class GameControl : MonoBehaviour
         player.Playerdeath += player_death;
     }
     private void player_death(Player obj) {
+        EditorSceneManager.LoadScene("Over", UnityEngine.SceneManagement.LoadSceneMode.Additive);
         Destroy(obj.gameObject);
         enemyProduct.shouldProductEnemy(false);
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
