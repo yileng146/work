@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window czEBfIv" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="czEBfIv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+<div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window czEBfIv" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="czEBfIv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,$model/UI2/system/components/justep/panel/panel,">  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="czEBfIv" class="czEBfIv"></div>  
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pczqqAvy-iosstatusbar czEBfIv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="czEBfIv"> 
     <div class="x-panel-top czEBfIv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="czEBfIv"> 
@@ -58,7 +58,7 @@
                 <span xid="span13" __cid="czEBfIv" class="czEBfIv">账户余额：</span>
               </div>  
               <div class="x-col czEBfIv" xid="col3" __cid="czEBfIv">
-                <span xid="span19" __cid="czEBfIv" class="czEBfIv">5000.00</span>
+                <span xid="span19" style="color:#FF8000;font-size:x-large;" __cid="czEBfIv" class="czEBfIv" data-bind="text:$model.user_info2.ref(&#34;user_balance&#34;)"></span>
               </div>  
               <div class="x-col czEBfIv" xid="col6" __cid="czEBfIv"></div>
             </div>  
@@ -104,7 +104,7 @@
                     <span xid="span20" __cid="czEBfIv" class="czEBfIv">预期收益：</span>
                   </div>  
                   <div class="x-col czEBfIv" xid="col19" __cid="czEBfIv">
-                    <span xid="span21" __cid="czEBfIv" class="czEBfIv"></span>
+                    <span xid="span21" __cid="czEBfIv" class="czEBfIv" data-bind="text:val(&#34;p_yuqishouyi&#34;)*1000"></span>
                   </div>  
                   <div class="x-col czEBfIv" xid="col25" __cid="czEBfIv"></div>
                 </div>  

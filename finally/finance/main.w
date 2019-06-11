@@ -15,7 +15,7 @@
    <div class="x-contents-content" xid="content2"><div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel2"> 
     <div class="x-panel-top" xid="top2"> 
-        <div component="$UI/system/components/justep/titleBar/titleBar" title="理财产品"
+        <div component="$UI/system/components/justep/titleBar/titleBar" title="首页推荐"
           class="x-titlebar">
           <div class="x-titlebar-left"> 
             <a component="$UI/system/components/justep/button/button"

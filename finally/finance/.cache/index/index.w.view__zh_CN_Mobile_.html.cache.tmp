@@ -217,7 +217,7 @@
                                   <div component="$model/UI2/system/components/justep/row/row" class="x-row cv2iYVj" xid="row13" style="height:50%;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cv2iYVj"> 
                                     <div class="x-col cv2iYVj" xid="col40" __cid="cv2iYVj"> 
                                       <div class="x-col cv2iYVj" xid="div1" style="height:68px;" __cid="cv2iYVj"> 
-                                        <span xid="span5" style="width:98px;text-align:center;font-size:xx-large;height:48px;" class="center-block cv2iYVj" __cid="cv2iYVj" data-bind="text:$model.user_inf.val(&quot;u_blance&quot;)"/> 
+                                        <span xid="span5" style="width:98px;text-align:center;font-size:xx-large;height:48px;" class="center-block cv2iYVj" __cid="cv2iYVj" data-bind="text:$model.user_info.ref(&quot;user_balance&quot;)"/> 
                                       </div> 
                                     </div> 
                                   </div> 
@@ -419,7 +419,7 @@
                                 <span style="font-size: 18px;" __cid="cfi2u6v" class="cfi2u6v">QQ号二维码：</span> 
                               </p>  
                               <p align="left" __cid="cfi2u6v" class="cfi2u6v"> 
-                                <img alt="" src="@justepContextPath@/v_1fdaf348c15f4f15a4c2882278915034l_zh_CNs_d_m/finally/finance/img/erweima.jpg" style="width:151px;height:156px;" __cid="cfi2u6v" class="cfi2u6v"/> 
+                                <img alt="" src="@justepContextPath@/v_ff56be7436ff470c845c21ec94782700l_zh_CNs_d_m/finally/finance/img/erweima.jpg" style="width:151px;height:156px;" __cid="cfi2u6v" class="cfi2u6v"/> 
                               </p>  
                               <p align="left" __cid="cfi2u6v" class="cfi2u6v"/>  
                               <hr __cid="cfi2u6v" class="cfi2u6v"/> 
