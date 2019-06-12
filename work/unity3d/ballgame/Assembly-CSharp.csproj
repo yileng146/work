@@ -74,6 +74,7 @@
     <Compile Include="Assets\Assets\script\Player\test.cs" />
     <Compile Include="Assets\Assets\script\Scene\Over_exit.cs" />
     <Compile Include="Assets\Assets\script\Scene\Over_restart.cs" />
+    <Compile Include="Assets\Assets\script\Scene\silent.cs" />
     <Compile Include="Assets\Assets\script\Scene\startclick.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/1/project/work/unity3d/ballgame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
