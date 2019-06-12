@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     public int HP;
     public int damage;
     public Transform Player;
+    public GameObject Particle;
     //对 Enemy 对象属性进行初始化定义的方法 
     public void init(int HP, int damage, Transform target)
     {
@@ -35,12 +36,17 @@ public class Enemy : MonoBehaviour
         player.HP -= this.damage;
         Destroy(this.gameObject);
     }
+    public void EnemyBoom()
+    {
+        GameObject dealth = Instantiate(Particle, transform.position, Quaternion.identity);  //敌人死亡在敌人位置生成boom对象
+    }
 
     public void takeDamage() {
         this.HP -= this.damage;
         if (this.HP<=0)
         {
             Destroy(this.gameObject);
+            EnemyBoom();
         }
     }
 }
