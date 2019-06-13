@@ -72,6 +72,7 @@
     <Compile Include="Assets\Assets\script\Player\PlayerAttact.cs" />
     <Compile Include="Assets\Assets\script\Player\PlayerMove.cs" />
     <Compile Include="Assets\Assets\script\Player\test.cs" />
+    <Compile Include="Assets\Assets\script\Scene\MusicControl.cs" />
     <Compile Include="Assets\Assets\script\Scene\Over_exit.cs" />
     <Compile Include="Assets\Assets\script\Scene\Over_restart.cs" />
     <Compile Include="Assets\Assets\script\Scene\silent.cs" />
