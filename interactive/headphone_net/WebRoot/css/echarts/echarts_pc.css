@@ -1,0 +1,14 @@
+
+#my_div{
+	width: 1000px;
+	height: 1000px;
+	border: 1px solid yellow;
+	margin: auto;
+}
+#foot{
+	margin: auto;
+	width: 1000px;
+	border: 1px solid black;
+	text-align: center;
+}
+

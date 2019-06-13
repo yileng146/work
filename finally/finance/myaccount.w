@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window" design="device:m;" xid="window" class="window">  
-  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;top:416px;left:794px;"> 
+  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;top:454px;left:455px;"> 
   <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="user_inf" onCustomRefresh="user_infCustomRefresh" idColumn="u_id"><column name="u_id" type="String" xid="xid1"></column>
   <column name="u_password" type="String" xid="xid2"></column>
   <column name="p_id" type="String" xid="xid3"></column>
@@ -24,7 +24,7 @@
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row13" style="height:50%;">
    <div class="x-col" xid="col40">
     
-    <div class="x-col" xid="div1" style="height:68px;"><span xid="span5" style="width:98px;text-align:center;font-size:xx-large;height:48px;" class="center-block" bind-text='$model.user_info.ref("user_balance")'><![CDATA[]]></span></div></div> </div></div> </div>
+    <div class="x-col" xid="div1" style="height:68px;"><span xid="span5" style="width:98px;text-align:center;font-size:xx-large;height:48px;" class="center-block" bind-text='$model.user_inf.val("u_blance")'><![CDATA[]]></span></div></div> </div></div> </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row14" style="height:20%;">
    <div class="x-col" xid="col41"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row15">
    <div class="x-col" xid="col45"><![CDATA[]]>
