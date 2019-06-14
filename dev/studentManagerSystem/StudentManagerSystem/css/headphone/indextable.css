@@ -1,0 +1,17 @@
+#main a{
+	background: #00ffff;
+	display:block;
+	width:500px;
+	height:500px;
+	float:center;
+	border:1px solid #00ff00;
+	text-align:left;
+	line-height:100px;
+	font-size: 20px;
+	color:white;
+}
+#main a:hover{
+	background: #80ffff;
+
+	}
+	
